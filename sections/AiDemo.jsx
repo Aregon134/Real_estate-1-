@@ -350,32 +350,7 @@ export function AiDemo() {
                   <h4 className="text-[1.125rem] font-medium leading-[1.2] tracking-[-0.04em] lg:text-[1.375rem]">
                     AI Website Assistant
                   </h4>
-                  <dl className="mt-5 grid gap-4 border-t border-ink-1000/10 pt-5">
-                    <div>
-                      <dt className="text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
-                        Monthly
-                      </dt>
-                      <dd className="mt-1 font-figure text-[1.375rem] font-semibold leading-none tracking-[-0.05em] lg:text-[1.625rem]">
-                        ₹590/month
-                      </dd>
-                      <dd className="mt-2 text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
-                        On a 12-month agreement, or month to month with 30 days’
-                        notice. An add-on to any build or plan.
-                      </dd>
-                    </div>
-                    <div>
-                      <dt className="text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
-                        Setup
-                      </dt>
-                      <dd className="mt-1 font-figure text-[1.375rem] font-semibold leading-none tracking-[-0.05em] lg:text-[1.625rem]">
-                        ₹1,990 one-time
-                      </dd>
-                      <dd className="mt-2 text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
-                        Month to month only. No setup fee on a 12-month
-                        agreement.
-                      </dd>
-                    </div>
-                  </dl>
+                  <p className="mt-5 text-[1rem]"> Pricing is custom. The running cost depends on the model’s API rates and how many input and output tokens your conversations use. We estimate usage and quote the integration before you commit.</p>
                 </div>
                 <div className="flex flex-col gap-6 rounded-[14px] bg-ink-1000 p-6 text-[#0a0a0a] lg:rounded-[18px] lg:p-[30px]">
                   <div>

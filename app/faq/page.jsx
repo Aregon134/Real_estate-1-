@@ -13,12 +13,7 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <HeaderBar
-        nav={dataNavigation}
-        site={dataAgency}
-        projectCount={1}
-        brandMark="™"
-      />
+      <HeaderBar nav={dataNavigation} site={dataAgency} brandMark="™" />
       <main id="main" className="v3 flex-1">
         <div className="flow-root bg-ink-950 px-gutter pt-[140px] text-ink-0 lg:pt-[318px]">
           <h1
@@ -276,50 +271,6 @@ export default function Page() {
                       }
                     >
                       <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                        How much does a website cost in India?
-                      </h3>
-                      <span
-                        aria-hidden="true"
-                        className="faq-x grid size-[18px] shrink-0 place-items-center rounded-full bg-ink-0 text-ink-1000"
-                      >
-                        <svg
-                          viewBox="0 0 16 16"
-                          className="size-2.5"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth={2.2}
-                          strokeLinecap="round"
-                        >
-                          <path d="M8 2.5v11M2.5 8h11" />
-                        </svg>
-                      </span>
-                    </summary>
-                    <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
-                      <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        A website from Ziggloom costs ₹5,000 for a single page
-                        (plus ₹1,200 a year to keep it online), ₹13,990 for
-                        Essential, ₹30,000 for Signature and ₹44,500 for Commerce,
-                        which covers online shops on Shopify and sites with paid
-                        bookings. These are clear, fixed prices for defined
-                        services, agreed in writing before we start. Taxes
-                        confirmed in your proposal. Larger projects are scoped
-                        and quoted individually, and monthly plans for hosting,
-                        care and marketing start at ₹2,000 a month.
-                      </p>
-                    </div>
-                  </details>
-                </li>
-                <li>
-                  <details
-                    name="faq-building"
-                    className="faq-item group rounded-[14px] bg-ink-1000"
-                  >
-                    <summary
-                      className={
-                        "flex min-h-[60px] cursor-pointer list-none items-center justify-between gap-6 px-5 py-4 lg:min-h-[75px] lg:px-[26px] [&::-webkit-details-marker]:hidden"
-                      }
-                    >
-                      <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                         How long does a website take to build?
                       </h3>
                       <span
@@ -419,8 +370,8 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        We can create one: Logo ₹4,000, Brand Starter ₹7,500, Full
-                        Brand Kit ₹15,000.
+                        We can create one: Logo ₹4,000, Brand Starter ₹7,500,
+                        Full Brand Kit ₹15,000.
                       </p>
                     </div>
                   </details>
@@ -468,45 +419,7 @@ export default function Page() {
                     </div>
                   </details>
                 </li>
-                <li>
-                  <details
-                    name="faq-building"
-                    className="faq-item group rounded-[14px] bg-ink-1000"
-                  >
-                    <summary
-                      className={
-                        "flex min-h-[60px] cursor-pointer list-none items-center justify-between gap-6 px-5 py-4 lg:min-h-[75px] lg:px-[26px] [&::-webkit-details-marker]:hidden"
-                      }
-                    >
-                      <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                        Do I need a monthly plan for a Shopify store?
-                      </h3>
-                      <span
-                        aria-hidden="true"
-                        className="faq-x grid size-[18px] shrink-0 place-items-center rounded-full bg-ink-0 text-ink-1000"
-                      >
-                        <svg
-                          viewBox="0 0 16 16"
-                          className="size-2.5"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth={2.2}
-                          strokeLinecap="round"
-                        >
-                          <path d="M8 2.5v11M2.5 8h11" />
-                        </svg>
-                      </span>
-                    </summary>
-                    <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
-                      <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        No. Shopify hosts the store, so it doesn’t need our Care
-                        plan. If you want ongoing SEO and email campaigns,
-                        stores start on Growth, and Scale adds automated
-                        abandoned-basket, win-back and launch messages.
-                      </p>
-                    </div>
-                  </details>
-                </li>
+
                 <li>
                   <details
                     name="faq-building"
@@ -673,50 +586,7 @@ export default function Page() {
                     </div>
                   </details>
                 </li>
-                <li>
-                  <details
-                    name="faq-building"
-                    className="faq-item group rounded-[14px] bg-ink-1000"
-                  >
-                    <summary
-                      className={
-                        "flex min-h-[60px] cursor-pointer list-none items-center justify-between gap-6 px-5 py-4 lg:min-h-[75px] lg:px-[26px] [&::-webkit-details-marker]:hidden"
-                      }
-                    >
-                      <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                        Can I hire you for just one feature or fix?
-                      </h3>
-                      <span
-                        aria-hidden="true"
-                        className="faq-x grid size-[18px] shrink-0 place-items-center rounded-full bg-ink-0 text-ink-1000"
-                      >
-                        <svg
-                          viewBox="0 0 16 16"
-                          className="size-2.5"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth={2.2}
-                          strokeLinecap="round"
-                        >
-                          <path d="M8 2.5v11M2.5 8h11" />
-                        </svg>
-                      </span>
-                    </summary>
-                    <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
-                      <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        Yes, if your site is custom-built or on Shopify. Not
-                        every problem needs a rebuild: we take on single jobs
-                        such as a new section, a booking or checkout
-                        improvement, or a broken integration. Small fixes are
-                        charged at our hourly rate; anything bigger is scoped
-                        and quoted at a fixed price before we start. We don’t
-                        work on template builds (Wix, Squarespace or WordPress
-                        themes): if that’s what you have, we’ll tell you
-                        honestly whether a rebuild is worth it.
-                      </p>
-                    </div>
-                  </details>
-                </li>
+
                 <li>
                   <details
                     name="faq-building"
@@ -750,10 +620,10 @@ export default function Page() {
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                         Yes. We rebuild it in our own code, or on Shopify for an
                         online shop, move your content across and redirect your
-                        old links so visitors can find the new pages. A move is scoped
-                        and quoted at a fixed price before we start, based on
-                        how many pages or products there are, what has to come
-                        across and anything it connects to.
+                        old links so visitors can find the new pages. A move is
+                        scoped and quoted at a fixed price before we start,
+                        based on how many pages or products there are, what has
+                        to come across and anything it connects to.
                       </p>
                     </div>
                   </details>
@@ -825,7 +695,8 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        Your proposal lists the project fee and any applicable taxes before you approve it.
+                        Your proposal lists the project fee and any applicable
+                        taxes before you approve it.
                       </p>
                     </div>
                   </details>
@@ -933,9 +804,9 @@ export default function Page() {
                         words and images in a simple editor (or in Shopify for
                         online shops), with training at handover. On Essential
                         we make changes for you through a monthly plan or at our
-                        hourly rate, or you can add editing for ₹6,500 before the
-                        build or ₹8,500 after. Single-page sites don’t include
-                        editing.
+                        hourly rate, or you can add editing for ₹6,500 before
+                        the build or ₹8,500 after. Single-page sites don’t
+                        include editing.
                       </p>
                     </div>
                   </details>
@@ -1010,9 +881,9 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        Yes. Kushagra works remotely from Himachal Pradesh, India. Everything can be
-                        done online, and we’re always happy to meet local
-                        businesses in person.
+                        Yes. Kushagra works remotely from Himachal Pradesh,
+                        India. Everything can be done online, and we’re always
+                        happy to meet local businesses in person.
                       </p>
                     </div>
                   </details>
@@ -1049,9 +920,9 @@ export default function Page() {
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                         Yes: 10% of the project fee for every business you refer
-                        that books with us. That’s ₹3,000 on a Signature website,
-                        and there’s no limit. Just tell us who’s coming before
-                        they get in touch.
+                        that books with us. That’s ₹3,000 on a Signature
+                        website, and there’s no limit. Just tell us who’s coming
+                        before they get in touch.
                       </p>
                     </div>
                   </details>
@@ -1459,7 +1330,10 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        Use a list of people who agreed to hear from your business. We’ll review how you collect permission and how recipients can opt out before a campaign goes live.</p>
+                        Use a list of people who agreed to hear from your
+                        business. We’ll review how you collect permission and
+                        how recipients can opt out before a campaign goes live.
+                      </p>
                     </div>
                   </details>
                 </li>
@@ -1494,11 +1368,10 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        ₹590 a month. On a 12-month agreement there is no setup
-                        fee; month to month, with 30 days’ notice, there is a
-                        one-time ₹1,990 setup. It is a chat assistant on your
-                        website that answers questions and captures enquiries,
-                        day and night.
+                        Pricing is custom. The running cost depends on the
+                        model’s API rates and how many input and output tokens
+                        your conversations use. We estimate usage and quote the
+                        integration before you commit.
                       </p>
                     </div>
                   </details>
@@ -1576,8 +1449,8 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        ₹3,490 a month, or ₹2,990 a month on the Scale plan. On a
-                        12-month agreement there is no setup fee; month to
+                        ₹3,490 a month, or ₹2,990 a month on the Scale plan. On
+                        a 12-month agreement there is no setup fee; month to
                         month, with 30 days’ notice, there is a one-time ₹4,950
                         setup. On its own it includes 600 minutes of calls a
                         month, then ₹2.50 a minute; on Scale, calls are covered

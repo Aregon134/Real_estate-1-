@@ -14,7 +14,6 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={1}
         brandMark="™"
       />
       <main

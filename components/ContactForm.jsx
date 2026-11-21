@@ -3,6 +3,7 @@
 import * as SmokeCanvasModule from "./SmokeCanvas";
 import * as FounderCardModule from "./FounderCard";
 import * as React from "react";
+import { sendStudioEmail } from "./sendStudioEmail";
 function Elementl({ id: e, show, children }) {
   return (
     <p
@@ -15,7 +16,8 @@ function Elementl({ id: e, show, children }) {
   );
 }
 export const ContactForm = function ({ site, founders }) {
-  let [c, d] = React.useState("idle"),
+  const sending = React.useRef(false);
+  let [status, setStatus] = React.useState("idle"),
     [detailsOpen, setDetailsOpen] = React.useState(false),
     detailsButton = React.useRef(null),
     detailsPanel = React.useRef(null),
@@ -73,22 +75,42 @@ export const ContactForm = function ({ site, founders }) {
         [t.name]: false,
       }));
   }
-  function openEmailDraft(event) {
+  async function sendEnquiry(event) {
     event.preventDefault();
     const form = event.currentTarget;
-    if (!form.reportValidity()) return;
-    const fields = Array.from(new FormData(form)).filter(
-      ([key, value]) => value && key !== "website",
+    if (sending.current || !form.reportValidity()) return;
+
+    const data = new FormData(form);
+    if (data.get("company-website")) return;
+    data.delete("company-website");
+    const fields = Object.fromEntries(
+      Array.from(data, ([name, value]) => [name, value.trim()]).filter(
+        ([, value]) => value,
+      ),
     );
-    const body = fields
-      .map(([label, value]) => label + ": " + value)
-      .join("\n");
-    location.href =
-      "mailto:" +
-      site.email +
-      "?subject=Project%20enquiry&body=" +
-      encodeURIComponent(body);
-    setMessage("Review and send your enquiry in your email app.");
+    if (!fields.name || !fields.brief || !(fields.email || fields.phone)) {
+      setMessage(
+        "Add your name, a contact method and a short project description.",
+      );
+      return;
+    }
+    sending.current = true;
+    setStatus("sending");
+    setMessage("");
+    try {
+      await sendStudioEmail("Ziggloom project enquiry", fields);
+      setStatus("sent");
+      setMessage("Enquiry sent. Kushagra will get back to you.");
+    } catch {
+      setStatus("idle");
+      setMessage(
+        "We couldn’t confirm delivery. Your details are still here. Try again or email " +
+          site.email +
+          ".",
+      );
+    } finally {
+      sending.current = false;
+    }
   }
   let inputClass =
       "field-fill mt-2 block w-full min-h-[58px] rounded-[10px] bg-ink-950 px-4 py-4 text-[1rem] font-medium tracking-[-0.04em] text-ink-0 placeholder:text-ink-0/45 lg:text-[1.125rem]",
@@ -168,7 +190,7 @@ export const ContactForm = function ({ site, founders }) {
                 <span className="text-ink-0/60">{"in mind?"}</span>
               </p>
               <form
-                onSubmit={openEmailDraft}
+                onSubmit={sendEnquiry}
                 className="mt-6 lg:mt-8"
                 noValidate={false}
               >
@@ -251,7 +273,7 @@ export const ContactForm = function ({ site, founders }) {
                         required={
                           prefersContact("phone") || !contactProvided.email
                         }
-                        pattern="[0-9+\\(\\)\\s\\-]{7,20}"
+                        pattern={String.raw`[\d\s\+\(\)\-]{7,20}`}
                         maxLength={20}
                         autoComplete="tel"
                         aria-invalid={invalidFields.phone || void 0}
@@ -280,6 +302,7 @@ export const ContactForm = function ({ site, founders }) {
                     <textarea
                       id="brief"
                       name="brief"
+                      maxLength={4000}
                       required={true}
                       rows={3}
                       aria-invalid={invalidFields.brief || void 0}
@@ -333,7 +356,7 @@ export const ContactForm = function ({ site, founders }) {
                   </button>
                   <p className="text-[0.75rem] leading-relaxed text-ink-0/60">
                     {
-                      "We use what you send here to reply to you, and nothing else. No mailing list, no third parties."
+                      "FormSubmit forwards your enquiry to Kushagra’s inbox so he can reply."
                     }{" "}
                     <a
                       href="/legal/privacy"
@@ -345,10 +368,14 @@ export const ContactForm = function ({ site, founders }) {
                   </p>
                   <button
                     type="submit"
-                    disabled={"sending" === c || "sent" === c}
+                    disabled={status !== "idle"}
                     className="btn-sweep flex h-[58px] w-full items-center justify-center rounded-full bg-[#0a0a0a] text-[1rem] font-semibold tracking-[-0.04em] text-ink-1000 disabled:pointer-events-none disabled:opacity-50 lg:text-[1.125rem]"
                   >
-                    {"sending" === c ? "Sending…" : "Open email draft"}
+                    {status === "sending"
+                      ? "Sending…"
+                      : status === "sent"
+                        ? "Enquiry sent"
+                        : "Send enquiry"}
                   </button>
                   <p
                     aria-live="polite"

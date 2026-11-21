@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { sendStudioEmail } from "./sendStudioEmail";
 import agency from "@/content/Agency.json";
 import styles from "./BookingCalendar.module.css";
 
@@ -110,38 +111,19 @@ export function BookingCalendar() {
     setStatus("sending");
     setError("");
     try {
-      const response = await fetch(
-        "https://formsubmit.co/ajax/" + agency.email,
+      await sendStudioEmail(
+        "Ziggloom call request · " + date + " · " + clockTime(minutes) + " IST",
         {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
-          body: JSON.stringify({
-            ...fields,
-            requested_time:
-              fullDate +
-              ", " +
-              clockTime(minutes) +
-              " – " +
-              clockTime(minutes + 15) +
-              " (Asia/Kolkata)",
-            _subject:
-              "Ziggloom call request · " +
-              date +
-              " · " +
-              clockTime(minutes) +
-              " IST",
-            _url: window.location.origin + "/book/",
-            _template: "table",
-          }),
-          signal: AbortSignal.timeout(25000),
+          ...fields,
+          requested_time:
+            fullDate +
+            ", " +
+            clockTime(minutes) +
+            " – " +
+            clockTime(minutes + 15) +
+            " (Asia/Kolkata)",
         },
       );
-      const reply = await response.json();
-      if (!response.ok || String(reply.success) !== "true")
-        throw new Error("delivery");
       setStatus("sent");
     } catch {
       setStatus("idle");

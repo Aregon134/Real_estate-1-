@@ -109,3 +109,49 @@ dialog.reel-dialog::backdrop {
 .zg-guide {
   bottom: 4.4rem;
 }
+.founder-card {
+  display: grid;
+  gap: 12px;
+  width: 100%;
+  padding: clamp(12px, 1.25vw, 20px);
+  background: #fafafa;
+  color: #171717;
+  border-radius: 16px;
+}
+.founder-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.founder-identity img {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: 10px;
+}
+.founder-identity p {
+  font-size: 0.8rem;
+  color: #555;
+}
+.founder-identity strong {
+  display: block;
+  font-size: clamp(1.05rem, 1.45vw, 1.4rem);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+.founder-book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 50px;
+  padding: 0 20px;
+  border-radius: 999px;
+  background: #151515;
+  color: white;
+  font-weight: 650;
+}
+.founder-book:hover {
+  background: #343434;
+}

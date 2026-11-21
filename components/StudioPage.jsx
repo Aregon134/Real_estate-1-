@@ -9,7 +9,6 @@ export function StudioPage({ title, intro, children }) {
       <HeaderBar
         site={agency}
         nav={nav}
-        projectCount={1}
         brandMark={agency.brandMark}
       />
       <main

@@ -21,7 +21,6 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">
@@ -81,7 +80,7 @@ export default function Page() {
                   >
                     AI Website Assistant
                     <span className="flex shrink-0 items-center gap-5">
-                      <span className="text-ink-0/60">₹590/month</span>
+                      <span className="text-ink-0/60">Custom · API usage</span>
                       <span
                         aria-hidden="true"
                         className="text-[1rem] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1 group-hover:translate-x-1"

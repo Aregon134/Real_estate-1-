@@ -1,0 +1,209 @@
+.hero {
+  padding: 61px 6px 6px;
+  background: #f5f5f5;
+  display: grid;
+  min-height: 100svh;
+}
+.panel {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template: "brand services" 1fr "intro card" auto / minmax(0, 1fr) minmax(
+      240px,
+      310px
+    );
+  align-items: start;
+  gap: clamp(1rem, 4svh, 3rem) 2rem;
+  padding: clamp(1.25rem, 6svh, 5rem) clamp(1.25rem, 4vw, 4.5rem)
+    max(4rem, env(safe-area-inset-bottom));
+  color: white;
+}
+.backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #171717;
+}
+.backdrop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+.backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, #08080822, #08080882);
+}
+.brand {
+  grid-area: brand;
+}
+.brand h1 {
+  margin: 0;
+  font-family: var(--font-display), sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.075em;
+  font-size: clamp(3rem, 11vw, 12rem);
+  line-height: 0.98;
+}
+.brand p {
+  font-family: var(--font-script), cursive;
+  color: #ff828b;
+  font-size: clamp(1.7rem, 3.3vw, 4.4rem);
+  line-height: 1.15;
+}
+.services {
+  grid-area: services;
+  display: grid;
+  justify-items: start;
+}
+.services a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: clamp(0.94rem, 1.1vw, 1.18rem);
+  font-weight: 600;
+}
+.services a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.intro {
+  grid-area: intro;
+  align-self: end;
+  max-width: 28rem;
+}
+.intro p {
+  font-size: clamp(1rem, 1.45vw, 1.6rem);
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+.projects {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 46px;
+  margin-top: 18px;
+  gap: 1.5rem;
+  padding: 0 20px;
+  border: 1px solid #ffffffa0;
+  border-radius: 100px;
+  font-weight: 650;
+}
+.projects:hover {
+  background: #ffffff20;
+}
+.card {
+  grid-area: card;
+  align-self: end;
+  min-width: 0;
+}
+@media (max-width: 700px) {
+  .hero {
+    padding-inline: 3px;
+  }
+  .panel {
+    grid-template: "brand" auto "services" auto "intro" auto "card" auto / minmax(
+        0,
+        1fr
+      );
+    align-content: space-between;
+    gap: clamp(6px, 2svh, 24px);
+    padding: clamp(12px, 3svh, 26px) clamp(14px, 5vw, 29px) 63px;
+  }
+  .brand h1 {
+    font-size: clamp(3.1rem, 16vw, 6rem);
+  }
+  .brand p {
+    font-size: clamp(1.3rem, 5.5vw, 2.15rem);
+  }
+  .services {
+    grid-template-columns: auto auto;
+    justify-content: start;
+    column-gap: clamp(15px, 6vw, 32px);
+  }
+  .intro {
+    max-width: 24rem;
+  }
+  .projects {
+    margin-top: 10px;
+  }
+  .card {
+    width: min(100%, 340px);
+  }
+}
+@media (max-height: 480px) and (min-width: 480px) {
+  .panel {
+    grid-template:
+      "brand card" auto "services card" auto "intro card" auto / minmax(0, 1fr)
+      minmax(170px, 28%);
+    align-content: center;
+    gap: 5px 16px;
+    padding: 9px 16px 24px;
+  }
+  .brand h1 {
+    font-size: clamp(2.4rem, 7vw, 5rem);
+  }
+  .brand p {
+    font-size: clamp(1rem, 2.3vw, 1.6rem);
+  }
+  .services {
+    grid-template-columns: auto auto;
+    justify-content: start;
+    column-gap: 14px;
+  }
+  .services a {
+    min-height: 32px;
+    font-size: 0.83rem;
+  }
+  .intro p {
+    font-size: 0.9rem;
+  }
+  .projects {
+    margin-top: 5px;
+    min-height: 38px;
+  }
+  .card {
+    align-self: center;
+  }
+}
+@media (max-width: 479px) and (max-height: 630px) {
+  .panel {
+    gap: 5px;
+    padding: 8px 12px 52px;
+  }
+  .brand h1 {
+    font-size: 2.6rem;
+  }
+  .brand p {
+    font-size: 1.1rem;
+  }
+  .services a {
+    min-height: 32px;
+    font-size: 0.83rem;
+  }
+  .intro p {
+    font-size: 0.9rem;
+  }
+  .projects {
+    min-height: 36px;
+    margin-top: 4px;
+  }
+}
+@media (max-width: 479px) and (max-height: 500px) {
+  .panel {
+    gap: 3px;
+    padding-block-start: 5px;
+  }
+  .card :global(.founder-card) {
+    padding: 8px;
+    gap: 6px;
+  }
+  .intro p {
+    font-size: 0.85rem;
+  }
+}

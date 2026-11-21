@@ -154,45 +154,7 @@ export function ServicesShopifyFaq() {
                 </div>
               </details>
             </li>
-            <li>
-              <details
-                name="shopify-faq"
-                className="faq-item group rounded-[14px] bg-ink-1000"
-              >
-                <summary
-                  className={
-                    "flex min-h-[60px] cursor-pointer list-none items-center justify-between gap-6 px-5 py-4 lg:min-h-[75px] lg:px-[26px] [&::-webkit-details-marker]:hidden"
-                  }
-                >
-                  <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                    Do I need a monthly plan for a Shopify store?
-                  </h3>
-                  <span
-                    aria-hidden="true"
-                    className="faq-x grid size-[18px] shrink-0 place-items-center rounded-full bg-ink-0 text-ink-1000"
-                  >
-                    <svg
-                      viewBox="0 0 16 16"
-                      className="size-2.5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2.2}
-                      strokeLinecap="round"
-                    >
-                      <path d="M8 2.5v11M2.5 8h11" />
-                    </svg>
-                  </span>
-                </summary>
-                <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
-                  <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    No. Shopify hosts the store, so it doesn’t need our Care
-                    plan. If you want ongoing SEO and email campaigns, stores
-                    start on Growth, and Scale adds automated abandoned-basket,
-                    win-back and launch messages.
-                  </p>
-                </div>
-              </details>
-            </li>
+
             <li>
               <details
                 name="shopify-faq"
@@ -276,49 +238,7 @@ export function ServicesShopifyFaq() {
                 </div>
               </details>
             </li>
-            <li>
-              <details
-                name="shopify-faq"
-                className="faq-item group rounded-[14px] bg-ink-1000"
-              >
-                <summary
-                  className={
-                    "flex min-h-[60px] cursor-pointer list-none items-center justify-between gap-6 px-5 py-4 lg:min-h-[75px] lg:px-[26px] [&::-webkit-details-marker]:hidden"
-                  }
-                >
-                  <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                    Can I hire you for just one feature or fix?
-                  </h3>
-                  <span
-                    aria-hidden="true"
-                    className="faq-x grid size-[18px] shrink-0 place-items-center rounded-full bg-ink-0 text-ink-1000"
-                  >
-                    <svg
-                      viewBox="0 0 16 16"
-                      className="size-2.5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2.2}
-                      strokeLinecap="round"
-                    >
-                      <path d="M8 2.5v11M2.5 8h11" />
-                    </svg>
-                  </span>
-                </summary>
-                <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
-                  <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    Yes, if your site is custom-built or on Shopify. Not every
-                    problem needs a rebuild: we take on single jobs such as a
-                    new section, a booking or checkout improvement, or a broken
-                    integration. Small fixes are charged at our hourly rate;
-                    anything bigger is scoped and quoted at a fixed price before
-                    we start. We don’t work on template builds (Wix, Squarespace
-                    or WordPress themes): if that’s what you have, we’ll tell
-                    you honestly whether a rebuild is worth it.
-                  </p>
-                </div>
-              </details>
-            </li>
+
             <li>
               <details
                 name="shopify-faq"
@@ -352,10 +272,10 @@ export function ServicesShopifyFaq() {
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     Yes. We rebuild it in our own code, or on Shopify for an
                     online shop, move your content across and redirect your old
-                    links so visitors can find the new pages. A move is scoped and quoted
-                    at a fixed price before we start, based on how many pages or
-                    products there are, what has to come across and anything it
-                    connects to.
+                    links so visitors can find the new pages. A move is scoped
+                    and quoted at a fixed price before we start, based on how
+                    many pages or products there are, what has to come across
+                    and anything it connects to.
                   </p>
                 </div>
               </details>

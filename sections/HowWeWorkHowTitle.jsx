@@ -374,7 +374,8 @@ export function HowWeWorkHowTitle() {
                   Direct communication
                 </h3>
                 <p className="mt-3 text-[0.875rem] font-medium leading-[1.45] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Kushagra is your project contact from the first conversation through handover.
+                  Kushagra is your project contact from the first conversation
+                  through handover.
                 </p>
               </div>
             </li>
@@ -441,6 +442,14 @@ export function HowWeWorkHowTitle() {
                       content, assets and access invitations by the dates in
                       your scope. We never ask for passwords.
                     </p>
+                    <img
+                      src="/images/process/plan.webp"
+                      alt="A hand sketching a sitemap on graph paper."
+                      width="900"
+                      height="600"
+                      loading="lazy"
+                      className="mt-4 aspect-[2/1] w-full rounded-xl object-cover"
+                    />
                   </div>
                 </li>
                 <li className="grid gap-2 border-t border-ink-0/10 py-6 first:border-t-0 first:pt-0 lg:grid-cols-[3.5rem_1fr] lg:py-[30px]">
@@ -455,6 +464,14 @@ export function HowWeWorkHowTitle() {
                       We design, you review. Send one consolidated response
                       within 3 working days of each scheduled review.
                     </p>
+                    <img
+                      src="/images/process/design.webp"
+                      alt="A designer arranging layout studies and colour swatches."
+                      width="900"
+                      height="600"
+                      loading="lazy"
+                      className="mt-4 aspect-[2/1] w-full rounded-xl object-cover"
+                    />
                   </div>
                 </li>
                 <li className="grid gap-2 border-t border-ink-0/10 py-6 first:border-t-0 first:pt-0 lg:grid-cols-[3.5rem_1fr] lg:py-[30px]">
@@ -483,6 +500,14 @@ export function HowWeWorkHowTitle() {
                       We build, add your content and complete the agreed checks
                       against your scope.
                     </p>
+                    <img
+                      src="/images/process/build.webp"
+                      alt="A developer working at a keyboard and code editor."
+                      width="900"
+                      height="600"
+                      loading="lazy"
+                      className="mt-4 aspect-[2/1] w-full rounded-xl object-cover"
+                    />
                   </div>
                 </li>
                 <li className="grid gap-2 border-t border-ink-0/10 py-6 first:border-t-0 first:pt-0 lg:grid-cols-[3.5rem_1fr] lg:py-[30px]">
@@ -497,6 +522,14 @@ export function HowWeWorkHowTitle() {
                       You approve the final website. The last 30% is due on
                       launch day, and we publish once it clears.
                     </p>
+                    <img
+                      src="/images/process/launch.webp"
+                      alt="Checking a finished website on a phone and laptop."
+                      width="900"
+                      height="600"
+                      loading="lazy"
+                      className="mt-4 aspect-[2/1] w-full rounded-xl object-cover"
+                    />
                   </div>
                 </li>
                 <li className="grid gap-2 border-t border-ink-0/10 py-6 first:border-t-0 first:pt-0 lg:grid-cols-[3.5rem_1fr] lg:py-[30px]">

@@ -61,6 +61,14 @@ export function AboutProcess() {
                   01
                 </span>
               </div>
+              <img
+                src="/images/process/plan.webp"
+                alt="A hand sketching a sitemap on graph paper."
+                width="900"
+                height="600"
+                loading="lazy"
+                className="mt-5 aspect-[3/2] w-full rounded-lg object-cover"
+              />
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   The problem first, then every page planned
@@ -79,6 +87,14 @@ export function AboutProcess() {
                   02
                 </span>
               </div>
+              <img
+                src="/images/process/design.webp"
+                alt="A designer arranging layout studies and colour swatches."
+                width="900"
+                height="600"
+                loading="lazy"
+                className="mt-5 aspect-[3/2] w-full rounded-lg object-cover"
+              />
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   A design you sign off before we build
@@ -97,6 +113,14 @@ export function AboutProcess() {
                   03
                 </span>
               </div>
+              <img
+                src="/images/process/build.webp"
+                alt="A developer working at a keyboard and code editor."
+                width="900"
+                height="600"
+                loading="lazy"
+                className="mt-5 aspect-[3/2] w-full rounded-lg object-cover"
+              />
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   Built in our own code, fast from day one
@@ -115,6 +139,14 @@ export function AboutProcess() {
                   04
                 </span>
               </div>
+              <img
+                src="/images/process/launch.webp"
+                alt="Checking a finished website on a phone and laptop."
+                width="900"
+                height="600"
+                loading="lazy"
+                className="mt-5 aspect-[3/2] w-full rounded-lg object-cover"
+              />
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   Launched only after every check passes

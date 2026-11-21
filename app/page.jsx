@@ -11,7 +11,6 @@ import { HomeServices } from "@/sections/HomeServices";
 import { HomeWhy } from "@/sections/HomeWhy";
 import { HomeWork } from "@/sections/HomeWork";
 import { HowWeWorkPricing } from "@/sections/HowWeWorkPricing";
-import { StatementReel } from "@/components/StatementReel";
 import dataAgency from "@/content/Agency.json";
 
 import dataNavigation from "@/content/Navigation.json";
@@ -27,17 +26,15 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">
         <HomeHero />
         <HeaderSurfaceSentinel />
-        <HomeWork />
         <HomeServices />
+        <HomeWork />
         <AboutProcess />
         <HomeHiddenCost />
-        <StatementReel />
         <HomeWhy />
         <HowWeWorkPricing />
         <HomeFaq />

@@ -257,10 +257,7 @@ export function AiAiFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    ₹590 a month. On a 12-month agreement there is no setup fee;
-                    month to month, with 30 days’ notice, there is a one-time
-                    ₹1,990 setup. It is a chat assistant on your website that
-                    answers questions and captures enquiries, day and night.
+                    Pricing is custom. The running cost depends on the model’s API rates and how many input and output tokens your conversations use. We estimate usage and quote the integration before you commit.
                   </p>
                 </div>
               </details>

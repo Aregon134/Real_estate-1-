@@ -1,6 +1,6 @@
 # Ziggloom
 
-An editable Next.js App Router project for the Ziggloom agency website. Each page has a React source file. The text, layouts, interactive components, styles, images and showreel are in this repository. The build runs from these sources and produces the deployable site in `out/`.
+An editable Next.js App Router project for the Ziggloom agency website. Each page has a React source file. The text, layouts, interactive components, styles and images are in this repository. The build runs from these sources and produces the deployable site in `out/`.
 
 ## Run locally
 
@@ -26,7 +26,7 @@ Open http://localhost:3210. Edits appear as you save. Run `npm run build` before
 | Work samples and case studies | `sections/HomeWork.jsx`, `app/portfolio/` |
 | Articles | `app/blog/<article>/page.jsx`. Add a link to the new article in the blog listing. |
 | Team cards and portraits | `content/Team.json`, `content/People.json`, `public/icon.svg` |
-| Showreel, smoke and page transitions | `components/StatementReel.jsx`, `components/SmokeCanvas.jsx`, `components/SiteInteractions.jsx` |
+| Smoke and page transitions | `components/SmokeCanvas.jsx`, `components/SiteInteractions.jsx` |
 | Enquiry form and call requests | `components/ContactForm.jsx`, `components/BookingCalendar.jsx` |
 | Colours, typography and spacing | `styles/theme.css`, `styles/fonts.css`, `styles/identity.css`. Tailwind also compiles new utilities in your JSX. |
 | Logos, fonts, video and project images | `public/`. For example, `public/media/clip.mp4` is served as `/media/clip.mp4`. |
@@ -39,4 +39,4 @@ Work in this checkout on a local branch. Review the live preview with Kushagra b
 
 ## Call requests
 
-The local calendar offers 15-minute weekday request times from 2:30 pm to 5 pm India time, up to 60 days ahead. FormSubmit forwards the selected time, contact details and meeting preference to the address in `content/Agency.json`. Activate FormSubmit from the recipient inbox before accepting requests. Kushagra confirms availability and sends the meeting link or places the call. The separate general enquiry form opens an email draft.
+The local calendar offers 15-minute weekday request times from 2:30 pm to 5 pm India time, up to 60 days ahead. FormSubmit forwards the selected time, contact details and meeting preference to the address in `content/Agency.json`. Activate FormSubmit from the recipient inbox before accepting requests. Kushagra confirms availability and sends the meeting link or places the call. The contact form also delivers enquiries through FormSubmit.

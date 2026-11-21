@@ -1,26 +1,22 @@
 export function HomeWork() {
   return (
-    <section className="bg-ink-950 px-gutter py-20 text-ink-0 lg:py-32">
-      <div className="mx-auto max-w-5xl">
-        <h2 className="max-w-3xl text-4xl font-semibold tracking-tight lg:text-6xl">
-          Inside the Ziggloom website.
+    <section
+      id="projects"
+      aria-labelledby="home-projects-title"
+      className="scroll-mt-16 bg-ink-950 px-gutter py-16 text-ink-0 lg:py-28"
+    >
+      <div className="flex flex-wrap items-center justify-between gap-6">
+        <h2
+          id="home-projects-title"
+          className="text-5xl font-semibold tracking-tight lg:text-7xl"
+        >
+          Projects.
         </h2>
-        <p className="my-6 max-w-2xl text-lg">
-          Explore the studio’s own website, from choosing a service to
-          requesting a project call.
-        </p>
-        <a href="/" aria-label="Open the Ziggloom homepage">
-          <img
-            src="/images/studio/agency-website.webp"
-            width="1200"
-            height="758"
-            loading="lazy"
-            alt="Ziggloom homepage with its studio wordmark, service menu and call booking card"
-            className="my-8 w-full rounded-2xl"
-          />
-        </a>
-        <a className="underline underline-offset-4" href="/portfolio/">
-          View studio work
+        <a
+          href="/portfolio/"
+          className="inline-flex min-h-12 items-center rounded-full bg-ink-0 px-6 font-semibold text-ink-1000"
+        >
+          View all projects ↗
         </a>
       </div>
     </section>

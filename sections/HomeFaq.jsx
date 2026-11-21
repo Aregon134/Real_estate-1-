@@ -43,45 +43,6 @@ export function HomeFaq() {
                   }
                 >
                   <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                    How much does a website cost in India?
-                  </h3>
-                  <span
-                    aria-hidden="true"
-                    className="faq-x grid size-[18px] shrink-0 place-items-center rounded-full bg-ink-0 text-ink-1000"
-                  >
-                    <svg
-                      viewBox="0 0 16 16"
-                      className="size-2.5"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2.2}
-                      strokeLinecap="round"
-                    >
-                      <path d="M8 2.5v11M2.5 8h11" />
-                    </svg>
-                  </span>
-                </summary>
-                <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
-                  <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    ₹5,000 for a single page, ₹13,990 for Essential, ₹30,000 for
-                    Signature, ₹44,500 for Commerce, agreed in writing. Taxes
-                    confirmed in your proposal. Larger projects are scoped and
-                    quoted individually.
-                  </p>
-                </div>
-              </details>
-            </li>
-            <li>
-              <details
-                name="home-faq"
-                className="faq-item group rounded-[14px] bg-ink-1000"
-              >
-                <summary
-                  className={
-                    "flex min-h-[60px] cursor-pointer list-none items-center justify-between gap-6 px-5 py-4 lg:min-h-[75px] lg:px-[26px] [&::-webkit-details-marker]:hidden"
-                  }
-                >
-                  <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                     How long does a website take to build?
                   </h3>
                   <span
@@ -256,8 +217,8 @@ export function HomeFaq() {
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     Yes: a new custom site that keeps the content that works,
-                    with your old links redirected so visitors can find the new pages.
-                    Priced like any build.
+                    with your old links redirected so visitors can find the new
+                    pages. Priced like any build.
                   </p>
                 </div>
               </details>

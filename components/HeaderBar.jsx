@@ -1,5 +1,6 @@
 "use client";
 
+import projects from "@/content/PortfolioItems.json";
 import agency from "@/content/Agency.json";
 import * as React from "react";
 import * as Navigation from "next/navigation";
@@ -47,7 +48,7 @@ function ElementeS() {
     </span>
   );
 }
-export const HeaderBar = function ({ nav, site, projectCount, brandMark }) {
+export const HeaderBar = function ({ nav, site, brandMark }) {
   let n = [
       {
         label: "Home",
@@ -191,7 +192,7 @@ export const HeaderBar = function ({ nav, site, projectCount, brandMark }) {
                         aria-hidden="true"
                         className="ml-1 inline-block align-top text-[0.625rem] font-medium leading-[1.2]"
                       >
-                        {projectCount}
+                        {projects.length}
                       </span>
                     ) : null,
                   a = "/" === e.href,
@@ -305,7 +306,7 @@ export const HeaderBar = function ({ nav, site, projectCount, brandMark }) {
                               className="text-[0.3em] font-semibold tracking-[-0.02em] text-ink-0/55"
                             >
                               {"("}
-                              {projectCount}
+                              {projects.length}
                               {")"}
                             </sup>
                           ) : null}
