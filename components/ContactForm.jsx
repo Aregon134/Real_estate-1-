@@ -95,16 +95,16 @@ export const ContactForm = function ({ site, founders }) {
     labelClass =
       "block text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0",
     budgets = [
-      ["under-1400", `Under ${site.currencySymbol}1,399`],
+      ["under-13990", `Under ${site.currencySymbol}13,990`],
       [
-        "1400-3000",
-        `${site.currencySymbol}1,399 – ${site.currencySymbol}3,000`,
+        "13990-30000",
+        `${site.currencySymbol}13,990 – ${site.currencySymbol}30,000`,
       ],
       [
-        "3000-4500",
-        `${site.currencySymbol}3,000 – ${site.currencySymbol}4,450`,
+        "30000-44500",
+        `${site.currencySymbol}30,000 – ${site.currencySymbol}44,500`,
       ],
-      ["4500+", `${site.currencySymbol}4,450+`],
+      ["44500+", `${site.currencySymbol}44,500+`],
       ["unsure", "Not sure yet"],
     ],
     renderChoices = (e, n, r) => (
@@ -262,7 +262,7 @@ export const ContactForm = function ({ site, founders }) {
                         onInvalid={checkField}
                         onInput={updateField}
                         className={inputClass}
-                        placeholder="07700 900000"
+                        placeholder="+91 XXXXX XXXXX"
                       />
                       <Elementl id="phone-hint" show={invalidFields.phone}>
                         {contactProvided.phone
@@ -394,7 +394,7 @@ export const ContactForm = function ({ site, founders }) {
                     {renderField(
                       "business",
                       "What does your business do?",
-                      "A bridal boutique in Grimsby",
+                      "A bridal boutique in India",
                     )}
                     <fieldset>
                       <legend className={`mb-3 ${labelClass}`}>
@@ -473,7 +473,7 @@ export const ContactForm = function ({ site, founders }) {
               {[
                 {
                   title: "Quick response.",
-                  body: "We reply within 1 working day and book a call at a time that suits you.",
+                  body: "Kushagra will reply to discuss the brief and agree a time.",
                   icon: "M4 15a8 8 0 1 1 16 0M12 15l4.5-4.5M7 18h10",
                 },
                 {

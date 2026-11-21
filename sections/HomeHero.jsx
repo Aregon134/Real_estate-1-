@@ -142,7 +142,7 @@ export function HomeHero() {
               >
                 Premium web design by Ziggloom.{" "}
                 <span className="text-ink-1000/70">
-                  Then we scale businesses with automation.
+                  Websites, Shopify stores and workflows for businesses in India.
                 </span>
               </h1>
               <p

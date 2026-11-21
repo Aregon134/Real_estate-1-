@@ -8,8 +8,8 @@
       {
         "id": "single-page",
         "name": "Single page",
-        "price": 500,
-        "meta": "For cafés, small shops and anyone who just needs to be found online. Hosting £120 a year.",
+        "price": 5000,
+        "meta": "For cafés, small shops and anyone who just needs to be found online. Hosting ₹1,200 a year.",
         "highlights": [
           "One page, custom-designed in your brand",
           "Tap-to-call phone number",
@@ -21,11 +21,11 @@
       {
         "id": "essential",
         "name": "Essential",
-        "price": 1399,
+        "price": 13990,
         "meta": "For sole traders and new starts",
         "highlights": [
           "Up to 5 pages in your brand",
-          "Editing add-on: £650 before the build, £850 after",
+          "Editing add-on: ₹6,500 before the build, ₹8,500 after",
           "SEO foundations built in"
         ],
         "rowLabel": "Delivery time",
@@ -34,7 +34,7 @@
       {
         "id": "signature",
         "name": "Signature",
-        "price": 3000,
+        "price": 30000,
         "meta": "For established businesses that want to be found and win more enquiries",
         "highlights": [
           "Up to 10 pages designed from scratch",
@@ -47,8 +47,8 @@
       {
         "id": "commerce",
         "name": "Commerce",
-        "price": 4450,
-        "meta": "For shops, venues and bookings. Most online shops are built on Shopify by our studio, with a custom design for your brand. Booking sites, and shops that already take card payments another way, are built in our own code.",
+        "price": 44500,
+        "meta": "For shops, venues and bookings. Choose Shopify for an online shop with a custom design. Booking sites, and shops that already take card payments another way, are built in our own code.",
         "highlights": [
           "Everything in Signature",
           "Online selling or paid bookings",
@@ -62,7 +62,7 @@
       "name": "Growth plan",
       "title": "Want more traffic and enquiries?",
       "text": "Add the Growth plan: SEO, GEO and AEO optimisation, four blog posts and two email campaigns every month.",
-      "price": 450
+      "price": 4500
     },
     "note": "Every build ships with search built in. Staying found is ongoing work (reviews, Google posts, blog posts and reports), and that’s what the monthly plans do: Local keeps you found nearby, and Growth adds SEO, GEO and AEO content every month."
   },
@@ -75,7 +75,7 @@
       {
         "id": "care",
         "name": "Care",
-        "price": 200,
+        "price": 2000,
         "meta": "We look after it",
         "highlights": [
           "Hosting, security certificate and renewals managed",
@@ -88,7 +88,7 @@
       {
         "id": "local",
         "name": "Local",
-        "price": 295,
+        "price": 2950,
         "meta": "We get you found nearby",
         "highlights": [
           "Everything in Care",
@@ -101,7 +101,7 @@
       {
         "id": "growth",
         "name": "Growth",
-        "price": 450,
+        "price": 4500,
         "meta": "We grow it",
         "highlights": [
           "Everything in Local",
@@ -114,7 +114,7 @@
       {
         "id": "scale",
         "name": "Scale",
-        "price": 950,
+        "price": 9500,
         "meta": "We run your marketing",
         "highlights": [
           "Everything in Growth",
@@ -129,7 +129,7 @@
       "name": "AI Voice Receptionist",
       "title": "Never miss another call?",
       "text": "Add the AI Voice Receptionist: it answers missed and out-of-hours calls. On a 12-month agreement.",
-      "price": 349
+      "price": 3490
     }
   },
   {

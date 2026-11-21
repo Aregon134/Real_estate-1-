@@ -9,9 +9,9 @@ import dataNavigation from "@/content/Navigation.json";
 
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "SEO & GEO Services in Grimsby | Ziggloom",
+  title: "SEO & GEO Services in India | Ziggloom",
   description:
-    "Technical SEO, local search and GEO for Grimsby and Lincolnshire businesses: found on Google, and structured so ChatGPT and Google's AI Overviews can cite you.",
+    "Technical SEO, local search and GEO for India businesses: found on Google, and structured so ChatGPT and Google's AI Overviews can cite you.",
 };
 export default function Page() {
   return (
@@ -19,7 +19,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">
@@ -160,10 +160,10 @@ export default function Page() {
                 </li>
                 <li>
                   <a
-                    href="/web-design-grimsby"
+                    href="/services/web-design"
                     className="text-[1rem] font-medium tracking-[-0.04em] underline decoration-ink-0/25 underline-offset-[4px] transition-colors duration-200 hover:decoration-ink-0 lg:text-[1.125rem]"
                   >
-                    Web design in Grimsby
+                    Web design in India
                   </a>
                 </li>
               </ul>

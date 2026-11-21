@@ -11,9 +11,9 @@ import dataNavigation from "@/content/Navigation.json";
 
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "Web Design Prices & Plans, Grimsby | Ziggloom",
+  title: "Web Design Prices & Plans, India | Ziggloom",
   description:
-    "Fixed-price websites from £500 and monthly plans from £200. Taxes confirmed in your proposal. Larger projects, systems and automation are scoped to your business.",
+    "Fixed-price websites from ₹5,000 and monthly plans from ₹2,000. Taxes confirmed in your proposal. Larger projects, systems and automation are scoped to your business.",
 };
 export default function Page() {
   return (
@@ -21,7 +21,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">
@@ -64,7 +64,7 @@ export default function Page() {
                   >
                     AI Voice Receptionist
                     <span className="flex shrink-0 items-center gap-5">
-                      <span className="text-ink-0/60">£349/month</span>
+                      <span className="text-ink-0/60">₹3,490/month</span>
                       <span
                         aria-hidden="true"
                         className="text-[1rem] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1 group-hover:translate-x-1"
@@ -81,7 +81,7 @@ export default function Page() {
                   >
                     AI Website Assistant
                     <span className="flex shrink-0 items-center gap-5">
-                      <span className="text-ink-0/60">£59/month</span>
+                      <span className="text-ink-0/60">₹590/month</span>
                       <span
                         aria-hidden="true"
                         className="text-[1rem] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1 group-hover:translate-x-1"
@@ -98,7 +98,7 @@ export default function Page() {
                   >
                     Branding
                     <span className="flex shrink-0 items-center gap-5">
-                      <span className="text-ink-0/60">from £400</span>
+                      <span className="text-ink-0/60">from ₹4,000</span>
                       <span
                         aria-hidden="true"
                         className="text-[1rem] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1 group-hover:translate-x-1"
@@ -115,7 +115,7 @@ export default function Page() {
                   >
                     Ad creative video
                     <span className="flex shrink-0 items-center gap-5">
-                      <span className="text-ink-0/60">£250</span>
+                      <span className="text-ink-0/60">₹2,500</span>
                       <span
                         aria-hidden="true"
                         className="text-[1rem] transition-transform duration-200 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-1 group-hover:translate-x-1"
@@ -265,11 +265,11 @@ export default function Page() {
                 </div>
                 <ul className="mt-5 grid gap-2.5 border-t border-ink-0/10 pt-5 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] text-ink-0/60 lg:mt-6 lg:pt-6">
                   <li>
-                    On a plan: £50 an hour beyond what your plan includes.
+                    On a plan: ₹500 an hour beyond what your plan includes.
                   </li>
-                  <li>Not on a plan: £85 an hour, one-hour minimum.</li>
+                  <li>Not on a plan: ₹850 an hour, one-hour minimum.</li>
                   <li>
-                    Single-page quick jobs (opening hours, a photo swap): £42.50
+                    Single-page quick jobs (opening hours, a photo swap): ₹425
                     for up to 30 minutes.
                   </li>
                   <li>Bigger jobs are quoted before we start.</li>
@@ -297,7 +297,7 @@ export default function Page() {
                     Prefer to look after it yourself? You get the code files, a
                     written setup guide, and the accounts, training and support
                     set out in your scope. We can set it up on your own hosting
-                    at £85 an hour, with your domain and hosting in your name.
+                    at ₹850 an hour, with your domain and hosting in your name.
                   </li>
                 </ul>
               </div>
@@ -316,7 +316,7 @@ export default function Page() {
                 <ul className="mt-5 grid gap-2.5 border-t border-ink-0/10 pt-5 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] text-ink-0/60 lg:mt-6 lg:pt-6">
                   <li>Monthly plans are billed monthly in advance.</li>
                   <li>
-                    Single-page hosting is £120 a year: hosting, security
+                    Single-page hosting is ₹1,200 a year: hosting, security
                     certificate and domain renewals. Changes at our hourly
                     rates.
                   </li>

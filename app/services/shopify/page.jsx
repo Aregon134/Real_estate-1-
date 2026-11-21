@@ -9,9 +9,9 @@ import dataNavigation from "@/content/Navigation.json";
 
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "Shopify Developer in Grimsby | Ziggloom",
+  title: "Shopify Developer in India | Ziggloom",
   description:
-    "Custom Shopify stores from our studio in Grimsby, for shops across Lincolnshire and the UK: designed for your brand, built for speed, £4,450 fixed.",
+    "Custom Shopify stores for shops in India: designed for your brand, built for speed, ₹44,500 fixed.",
 };
 export default function Page() {
   return (
@@ -19,7 +19,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">

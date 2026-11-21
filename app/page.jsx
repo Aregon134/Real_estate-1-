@@ -17,9 +17,9 @@ import dataAgency from "@/content/Agency.json";
 import dataNavigation from "@/content/Navigation.json";
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "Ziggloom | Web Design & AI Automation in Grimsby",
+  title: "Ziggloom | Web Design & AI Automation in India",
   description:
-    "Premium web design in Grimsby & Cleethorpes: custom websites, SEO and AI automation from a founder-led agency, at fixed prices from £500. Book a 15-minute call.",
+    "Premium web design in India: custom websites, SEO and AI automation from a founder-led agency, at fixed prices from ₹5,000. Book a 15-minute call.",
 };
 export default function Page() {
   return (
@@ -27,7 +27,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">

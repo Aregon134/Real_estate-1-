@@ -21,10 +21,10 @@ function Elementl({ className: s = "" }) {
   );
 }
 let n = "/media/showreel.2026-10-29c",
-  i = "/images/showreel/showreel-poster.2026-10-29d.webp",
+  i = "/images/hero/smoke-wide.2026-10-29.webp",
   a = "0:29",
   m =
-    "Showreel, with sound: Make premium look premium. Websites designed in-house, shown on B Boutique's live site on a phone; Shopify stores built to sell, shown on the reference store, Scrapeless; an AI receptionist answering and booking a call; follow-ups, reminders and review requests sent on their own; and a business found on Google and recommended by AI. One studio, every layer.";
+    "A reference film showing websites, online stores and automated customer enquiries.";
 export const StatementReel = function () {
   let [isPlaying, setIsPlaying] = React.useState(false),
     dialogRef = React.useRef(null);

@@ -257,9 +257,9 @@ export function AiAiFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    £59 a month. On a 12-month agreement there is no setup fee;
+                    ₹590 a month. On a 12-month agreement there is no setup fee;
                     month to month, with 30 days’ notice, there is a one-time
-                    £199 setup. It is a chat assistant on your website that
+                    ₹1,990 setup. It is a chat assistant on your website that
                     answers questions and captures enquiries, day and night.
                   </p>
                 </div>
@@ -300,7 +300,7 @@ export function AiAiFaq() {
                     calls in a natural voice, using your own services, prices,
                     opening hours and common questions. It takes the enquiry and
                     passes it straight to you, and if you use a booking system
-                    or calendar, it books the customer in. Ours is £349 a month
+                    or calendar, it books the customer in. Ours is ₹3,490 a month
                     on a 12-month agreement, with the setup waived on that
                     commitment.
                   </p>
@@ -338,10 +338,10 @@ export function AiAiFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    £349 a month, or £299 a month on the Scale plan. On a
+                    ₹3,490 a month, or ₹2,990 a month on the Scale plan. On a
                     12-month agreement there is no setup fee; month to month,
-                    with 30 days’ notice, there is a one-time £495 setup. On its
-                    own it includes 600 minutes of calls a month, then £0.25 a
+                    with 30 days’ notice, there is a one-time ₹4,950 setup. On its
+                    own it includes 600 minutes of calls a month, then ₹2.50 a
                     minute; on Scale, calls are covered up to 1,500 minutes a
                     month on a fair-use basis. Always-on answering and
                     additional sites are quoted separately.

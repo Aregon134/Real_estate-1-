@@ -53,7 +53,7 @@ export const FounderCard = function ({ founders, bookingUrl, brand }) {
             style={{
               objectPosition: e.focus ?? "50% 25%",
             }}
-            className={`founder-slide absolute inset-1.5 h-[calc(100%-12px)] w-[calc(100%-12px)] rounded-[12px] object-cover grayscale ${o === active ? "is-on" : ""}`}
+            className={`founder-slide absolute inset-1.5 h-[calc(100%-12px)] w-[calc(100%-12px)] rounded-[12px] object-contain p-4 ${o === active ? "is-on" : ""}`}
             key={e.name}
           />
         ))}
@@ -88,7 +88,7 @@ export const FounderCard = function ({ founders, bookingUrl, brand }) {
                 {e.role || e.title}
               </p>
               <p className="mt-1 whitespace-nowrap text-[0.75rem] font-semibold leading-[1.1] tracking-[-0.04em] text-ink-0/60">
-                {e.role && e.title ? `${e.title} at` : "at"} {brand}
+                {brand}
               </p>
               <p className="mt-1.5 whitespace-nowrap text-[1.375rem] font-semibold leading-[1.15] tracking-[-0.04em]">
                 {e.name.split(" ")[0]} <br className="@min-[9rem]:hidden" />

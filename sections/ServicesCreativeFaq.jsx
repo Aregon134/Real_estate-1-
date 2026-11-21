@@ -102,8 +102,8 @@ export function ServicesCreativeFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    We can create one: Logo £400, Brand Starter £750, Full Brand
-                    Kit £1,500.
+                    We can create one: Logo ₹4,000, Brand Starter ₹7,500, Full Brand
+                    Kit ₹15,000.
                   </p>
                 </div>
               </details>
@@ -180,7 +180,7 @@ export function ServicesCreativeFaq() {
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     Yes, made in house in software from the photos, footage and
-                    products you provide: ad creative videos at £250 each. We
+                    products you provide: ad creative videos at ₹2,500 each. We
                     don't do photo shoots or filming. Most pieces are delivered
                     one to two working days from approved direction, with full
                     copyright on final payment. Running the ads is separate: we

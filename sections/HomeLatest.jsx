@@ -1,4 +1,3 @@
-import Image from "next/image";
 export function HomeLatest() {
   return (
     <>
@@ -13,7 +12,7 @@ export function HomeLatest() {
             className="text-[2rem] font-semibold leading-[1.1] tracking-[-0.06em] lg:col-span-2 lg:text-[3.75rem]"
           >
             {"Plain answers "}
-            <span className="text-ink-0/60">from the founders.</span>
+            <span className="text-ink-0/60">from Ziggloom.</span>
           </h2>
           <p className="max-w-[300px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:pb-2 lg:text-[1rem]">
             Websites, search and automation, explained for people running a
@@ -58,15 +57,14 @@ export function HomeLatest() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  15 November 2026
+                  Studio notes
                 </p>
                 <h3 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  Do I need a new website or just a redesign? How to tell which
+                  Does your website need a redesign or a rebuild?
                 </h3>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Some websites need a refresh and some need rebuilding. The
-                  signs for each, what each involves, and the simple things to
-                  rule out first.
+                  Watch a customer use your site, then check which problems the
+                  current platform can fix.
                 </p>
               </div>
             </a>
@@ -96,16 +94,14 @@ export function HomeLatest() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  1 November 2026
+                  Studio notes
                 </p>
                 <h3 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  Why doesn't my business show on Google Maps? Check this before
-                  blaming your website
+                  What to check when your business is missing from Google Maps
                 </h3>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Not showing on Google Maps is usually a Google Business
-                  Profile problem, not a website one. Five checks you can do
-                  today, in order, and who fixes each.
+                  Compare your public details and check the account that manages
+                  your Business Profile.
                 </p>
               </div>
             </a>
@@ -115,22 +111,6 @@ export function HomeLatest() {
               href="/blog"
               className="blog-card group relative flex aspect-[888/1066] flex-col justify-between overflow-hidden rounded-[14px] bg-[#0a0a0a] p-6 text-ink-1000 md:aspect-[1322/1066] md:rounded-[18px] lg:p-[30px]"
             >
-              <Image
-                src="/images/blog/card/blog-tall.2026-10-28-2.webp"
-                alt=""
-                fill={true}
-                sizes="100vw"
-                quality={90}
-                className="blog-photo object-cover md:hidden"
-              />
-              <Image
-                src="/images/blog/card/blog-wide.2026-10-28-2.webp"
-                alt=""
-                fill={true}
-                sizes="(min-width: 1024px) 50vw, 100vw"
-                quality={90}
-                className="blog-photo hidden object-cover md:block"
-              />
               <span
                 aria-hidden="true"
                 className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/5 to-black/50"

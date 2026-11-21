@@ -12,7 +12,7 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <html
-      lang="en-GB"
+      lang="en-IN"
       className="Sms4YG_variable f7tCIa_variable LyTxPG_variable _1ckQRG_variable jsBmNq_variable hIgTkq_variable h-full antialiased"
     >
       <body className="grain min-h-full bg-ink-0 text-ink-1000 flex flex-col">

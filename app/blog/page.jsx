@@ -6,7 +6,7 @@ import dataNavigation from "@/content/Navigation.json";
 export const metadata = {
   title: "Web Design, SEO & AI Blog | Ziggloom",
   description:
-    "Plain answers on websites, SEO, AI search and automation for people running a business in Lincolnshire and beyond, from the studio team of Ziggloom.",
+    "Plain answers on websites, SEO, AI search and automation for people running a business in India and beyond, from Ziggloom.",
 };
 export default function Page() {
   return (
@@ -14,7 +14,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">

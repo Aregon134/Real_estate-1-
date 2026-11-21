@@ -18,7 +18,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">
@@ -91,7 +91,7 @@ export default function Page() {
                       <p className="mt-2.5 max-w-[600px] text-[1rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[1.125rem] lg:leading-[1.3]">
                         You get the code files and a written setup guide. Your
                         scope sets out training, repositories, domains, hosting
-                        and access. We can set it up on your own hosting at £85
+                        and access. We can set it up on your own hosting at ₹850
                         an hour, with your domain and hosting in your name.
                       </p>
                     </div>
@@ -108,9 +108,9 @@ export default function Page() {
                         Hourly rates
                       </h3>
                       <p className="mt-2.5 max-w-[600px] text-[1rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[1.125rem] lg:leading-[1.3]">
-                        £50 an hour on a plan, beyond what’s included. £85 an
+                        ₹500 an hour on a plan, beyond what’s included. ₹850 an
                         hour without one, one-hour minimum. Quick jobs on
-                        single-page sites: £42.50 for up to 30 minutes.
+                        single-page sites: ₹425 for up to 30 minutes.
                       </p>
                     </div>
                   </li>
@@ -733,7 +733,7 @@ export default function Page() {
           </section>
           <div className="mt-[50px] grid border-t border-ink-0/10 py-8 lg:mt-[190px] lg:grid-cols-4 lg:gap-x-1 lg:py-10">
             <p className="lg:col-span-2 lg:col-start-3 text-[0.8125rem] font-medium tracking-[-0.04em] text-ink-0/60 lg:text-[0.875rem]">
-              How We Work, version 27 October 2026. Your project scope and
+              How We Work, version Studio notes. Your project scope and
               agreement set out the full terms for your project.
             </p>
           </div>

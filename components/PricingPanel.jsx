@@ -2,7 +2,7 @@
 
 import { Fragment } from "react";
 import * as React from "react";
-let r = new Intl.NumberFormat("en-GB"),
+let r = new Intl.NumberFormat("en-IN"),
   i = (
     <svg
       viewBox="0 0 18 18"

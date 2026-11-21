@@ -109,8 +109,8 @@ export function ServicesShopifyFaq() {
                     and images in a simple editor (or in Shopify for online
                     shops), with training at handover. On Essential we make
                     changes for you through a monthly plan or at our hourly
-                    rate, or you can add editing for £650 before the build or
-                    £850 after. Single-page sites don’t include editing.
+                    rate, or you can add editing for ₹6,500 before the build or
+                    ₹8,500 after. Single-page sites don’t include editing.
                   </p>
                 </div>
               </details>
@@ -352,7 +352,7 @@ export function ServicesShopifyFaq() {
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     Yes. We rebuild it in our own code, or on Shopify for an
                     online shop, move your content across and redirect your old
-                    links so you keep your rankings. A move is scoped and quoted
+                    links so visitors can find the new pages. A move is scoped and quoted
                     at a fixed price before we start, based on how many pages or
                     products there are, what has to come across and anything it
                     connects to.

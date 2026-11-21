@@ -67,8 +67,8 @@ export function ServicesHostingCareFaq() {
                     and images in a simple editor (or in Shopify for online
                     shops), with training at handover. On Essential we make
                     changes for you through a monthly plan or at our hourly
-                    rate, or you can add editing for £650 before the build or
-                    £850 after. Single-page sites don’t include editing.
+                    rate, or you can add editing for ₹6,500 before the build or
+                    ₹8,500 after. Single-page sites don’t include editing.
                   </p>
                 </div>
               </details>

@@ -40,7 +40,7 @@ export function AiDemo() {
             >
               Answers when you can’t.{" "}
               <span className="text-ink-1000/60">
-                Under a car, or showing a £2 million house, when the phone
+                Under a car, or showing a property, when the phone
                 rings? Stay with the job in front of you. The receptionist
                 answers, books them in and sends you the details.
               </span>
@@ -116,7 +116,7 @@ export function AiDemo() {
                           <span>now</span>
                         </div>
                         <p className="mt-0.5 text-[0.75rem] font-semibold leading-snug">
-                          Your MOT and service are booked
+                          Your vehicle service are booked
                         </p>
                         <p className="text-[0.6875rem] leading-snug text-[#3c3c43]">
                           Thursday at 8:30am. Drop the car off and we’ll be in
@@ -140,7 +140,7 @@ export function AiDemo() {
                         </p>
                         <p className="max-w-[80%] justify-self-start rounded-[18px] rounded-bl-[5px] bg-[#e9e9eb] px-3 py-[7px] text-[0.8125rem] leading-[1.3] text-black">
                           <span className="sr-only">{"The garage: "}</span>
-                          You’re booked: MOT and service, Thursday 8:30am. Reply
+                          You’re booked: vehicle service, Thursday 8:30am. Reply
                           CANCEL to cancel, or MOVE to change the time.
                         </p>
                         <div
@@ -232,7 +232,7 @@ export function AiDemo() {
                     >
                       <span className="block max-w-[16rem] rounded-2xl px-3.5 py-2.5 text-[0.875rem] leading-snug rounded-bl-md bg-white/[0.08] text-ink-1000">
                         <span className="sr-only">{"Assistant: "}</span>Happy to
-                        help. What's your postcode, and the best email to reach
+                        help. What's your PIN code, and the best email to reach
                         you?
                       </span>
                     </li>
@@ -242,7 +242,7 @@ export function AiDemo() {
                       style={{ transitionDelay: "1.5s", "--reveal-y": "12px" }}
                     >
                       <span className="block max-w-[16rem] rounded-2xl px-3.5 py-2.5 text-[0.875rem] leading-snug rounded-br-md bg-white text-black">
-                        <span className="sr-only">{"Visitor: "}</span>DN35,
+                        <span className="sr-only">{"Visitor: "}</span>110001,
                         sam@example.com
                       </span>
                     </li>
@@ -302,10 +302,10 @@ export function AiDemo() {
                         Monthly
                       </dt>
                       <dd className="mt-1 font-figure text-[1.375rem] font-semibold leading-none tracking-[-0.05em] lg:text-[1.625rem]">
-                        £349/month
+                        ₹3,490/month
                       </dd>
                       <dd className="mt-2 text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
-                        £299/month on the Scale plan. On a 12-month agreement,
+                        ₹2,990/month on the Scale plan. On a 12-month agreement,
                         or month to month with 30 days’ notice.
                       </dd>
                     </div>
@@ -314,7 +314,7 @@ export function AiDemo() {
                         Setup
                       </dt>
                       <dd className="mt-1 font-figure text-[1.375rem] font-semibold leading-none tracking-[-0.05em] lg:text-[1.625rem]">
-                        £495 one-time
+                        ₹4,950 one-time
                       </dd>
                       <dd className="mt-2 text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
                         Month to month only. No setup fee on a 12-month
@@ -339,7 +339,7 @@ export function AiDemo() {
                         Calls standalone
                       </dt>
                       <dd className="mt-1 font-figure text-[1.375rem] font-semibold leading-none tracking-[-0.05em] lg:text-[1.625rem]">
-                        600 minutes included, then £0.25/min
+                        600 minutes included, then ₹2.50/min
                       </dd>
                     </div>
                   </dl>
@@ -356,7 +356,7 @@ export function AiDemo() {
                         Monthly
                       </dt>
                       <dd className="mt-1 font-figure text-[1.375rem] font-semibold leading-none tracking-[-0.05em] lg:text-[1.625rem]">
-                        £59/month
+                        ₹590/month
                       </dd>
                       <dd className="mt-2 text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
                         On a 12-month agreement, or month to month with 30 days’
@@ -368,7 +368,7 @@ export function AiDemo() {
                         Setup
                       </dt>
                       <dd className="mt-1 font-figure text-[1.375rem] font-semibold leading-none tracking-[-0.05em] lg:text-[1.625rem]">
-                        £199 one-time
+                        ₹1,990 one-time
                       </dd>
                       <dd className="mt-2 text-ink-1000/60 text-[0.8125rem] font-medium leading-[1.45] tracking-[-0.04em] lg:text-[0.875rem]">
                         Month to month only. No setup fee on a 12-month

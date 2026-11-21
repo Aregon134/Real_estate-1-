@@ -8,7 +8,7 @@
       {
         "id": "logo",
         "name": "Logo",
-        "price": 400,
+        "price": 4000,
         "meta": "A logo, ready for everything",
         "highlights": [
           "3 concepts",
@@ -21,7 +21,7 @@
       {
         "id": "brand-starter",
         "name": "Brand Starter",
-        "price": 750,
+        "price": 7500,
         "meta": "Recommended alongside a website",
         "highlights": [
           "Logo",
@@ -35,7 +35,7 @@
       {
         "id": "brand-kit",
         "name": "Full Brand Kit",
-        "price": 1500,
+        "price": 15000,
         "meta": "Everything a growing brand needs",
         "highlights": [
           "Logo suite",
@@ -65,12 +65,12 @@
       {
         "id": "ad-0",
         "name": "Ad creative video",
-        "price": 250,
+        "price": 2500,
         "meta": "15–30 seconds, made in software from your content",
         "highlights": [
           "Cut to 9:16, 16:9, 4:5 and 1:1. Alternate hooks included.",
           "One to two working days. Made in house, from your written sign-off on the direction.",
-          "One round of notes per piece. Further rounds £75."
+          "One round of notes per piece. Further rounds ₹750."
         ],
         "rowLabel": "Turnaround",
         "rowValue": "1–2 working days"

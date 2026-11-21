@@ -13,9 +13,9 @@ import dataItems from "@/content/Items.json";
 import dataNavigation from "@/content/Navigation.json";
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "AI Automation Agency in Grimsby & the UK | Ziggloom",
+  title: "AI Automation Agency in India | Ziggloom",
   description:
-    "AI receptionists, speed-to-lead, CRMs, reviews and admin automation for businesses in your local market and beyond. Book a free automation audit.",
+    "AI receptionists, speed-to-lead, CRMs, reviews and admin automation for businesses in India and online. Book a free automation audit.",
 };
 export default function Page() {
   return (
@@ -23,7 +23,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">

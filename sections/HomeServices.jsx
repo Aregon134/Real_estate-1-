@@ -53,7 +53,7 @@ export function HomeServices() {
               >
                 <p>
                   Design, build and the systems behind them, for businesses in
-                  your local market and beyond. Clear, fixed prices, agreed in
+                  India and online. Clear, fixed prices, agreed in
                   writing.
                 </p>
               </div>

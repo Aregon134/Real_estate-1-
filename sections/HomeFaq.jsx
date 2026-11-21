@@ -43,7 +43,7 @@ export function HomeFaq() {
                   }
                 >
                   <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                    How much does a website cost in Grimsby?
+                    How much does a website cost in India?
                   </h3>
                   <span
                     aria-hidden="true"
@@ -63,8 +63,8 @@ export function HomeFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    £500 for a single page, £1,399 for Essential, £3,000 for
-                    Signature, £4,450 for Commerce, agreed in writing. Taxes
+                    ₹5,000 for a single page, ₹13,990 for Essential, ₹30,000 for
+                    Signature, ₹44,500 for Commerce, agreed in writing. Taxes
                     confirmed in your proposal. Larger projects are scoped and
                     quoted individually.
                   </p>
@@ -218,7 +218,7 @@ export function HomeFaq() {
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     It answers your missed and out-of-hours calls in a natural
-                    voice, takes the enquiry and can book customers in. £349 a
+                    voice, takes the enquiry and can book customers in. ₹3,490 a
                     month on a 12-month agreement.
                   </p>
                 </div>
@@ -256,7 +256,7 @@ export function HomeFaq() {
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     Yes: a new custom site that keeps the content that works,
-                    with your old links redirected so you keep your rankings.
+                    with your old links redirected so visitors can find the new pages.
                     Priced like any build.
                   </p>
                 </div>

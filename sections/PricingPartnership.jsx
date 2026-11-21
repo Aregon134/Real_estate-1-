@@ -54,7 +54,7 @@ export function PricingPartnership() {
             <div className="flex items-center gap-3.5 lg:self-start lg:justify-self-end">
               <span className="flex">
                 <Image
-                  src="/images/founders/avatar-bradley-hoxha.2026-10-28.webp"
+                  src="/icon.svg"
                   alt=""
                   width={42}
                   height={42}
@@ -62,22 +62,13 @@ export function PricingPartnership() {
                   quality={90}
                   className="size-[42px] rounded-full object-cover ring-2 ring-[#111] "
                 />
-                <Image
-                  src="/images/founders/avatar-shaun-padley.webp"
-                  alt=""
-                  width={42}
-                  height={42}
-                  sizes="42px"
-                  quality={90}
-                  className="size-[42px] rounded-full object-cover ring-2 ring-[#111] -ml-3"
-                />
               </span>
               <span>
                 <span className="block text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] lg:text-[1rem]">
-                  {"Studio & Systems"}
+                  {"Kushagra Bhartia"}
                 </span>
                 <span className="block text-[0.75rem] font-medium leading-[1.3] tracking-[-0.04em] text-ink-1000/60 lg:text-[0.875rem]">
-                  The founders, on every partnership
+                  Your project contact
                 </span>
               </span>
             </div>

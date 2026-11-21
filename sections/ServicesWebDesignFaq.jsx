@@ -146,8 +146,8 @@ export function ServicesWebDesignFaq() {
                     and images in a simple editor (or in Shopify for online
                     shops), with training at handover. On Essential we make
                     changes for you through a monthly plan or at our hourly
-                    rate, or you can add editing for £650 before the build or
-                    £850 after. Single-page sites don’t include editing.
+                    rate, or you can add editing for ₹6,500 before the build or
+                    ₹8,500 after. Single-page sites don’t include editing.
                   </p>
                 </div>
               </details>
@@ -222,8 +222,8 @@ export function ServicesWebDesignFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    We can create one: Logo £400, Brand Starter £750, Full Brand
-                    Kit £1,500.
+                    We can create one: Logo ₹4,000, Brand Starter ₹7,500, Full Brand
+                    Kit ₹15,000.
                   </p>
                 </div>
               </details>

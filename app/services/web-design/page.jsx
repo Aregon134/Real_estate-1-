@@ -9,9 +9,9 @@ import dataNavigation from "@/content/Navigation.json";
 
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "Web Design & Build in Grimsby | Ziggloom",
+  title: "Web Design & Build in India | Ziggloom",
   description:
-    "Custom-designed websites, never templates, custom-built in Next.js by a founder-led agency in Grimsby. Clear, fixed prices for defined services.",
+    "Custom-designed websites, never templates, custom-built in Next.js by a founder-led agency in India. Clear, fixed prices for defined services.",
 };
 export default function Page() {
   return (
@@ -19,7 +19,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">
@@ -144,18 +144,18 @@ export default function Page() {
               <ul className="mt-4 grid gap-3">
                 <li>
                   <a
-                    href="/web-design-grimsby"
+                    href="/services/web-design"
                     className="text-[1rem] font-medium tracking-[-0.04em] underline decoration-ink-0/25 underline-offset-[4px] transition-colors duration-200 hover:decoration-ink-0 lg:text-[1.125rem]"
                   >
-                    Web design in Grimsby
+                    Web design in India
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/portfolio/b-boutique"
+                    href="/portfolio"
                     className="text-[1rem] font-medium tracking-[-0.04em] underline decoration-ink-0/25 underline-offset-[4px] transition-colors duration-200 hover:decoration-ink-0 lg:text-[1.125rem]"
                   >
-                    The B Boutique case study
+                    The Ziggloom website
                   </a>
                 </li>
                 <li>

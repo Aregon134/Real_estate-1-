@@ -9,9 +9,9 @@ import dataNavigation from "@/content/Navigation.json";
 
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "Website Hosting & Care, Grimsby | Ziggloom",
+  title: "Website Hosting & Care, India | Ziggloom",
   description:
-    "Managed website hosting and care for Grimsby businesses: uptime and speed monitoring, patching, tested backups and monthly edits, with one number to call.",
+    "Managed website hosting and care for India businesses: uptime and speed monitoring, patching, tested backups and monthly edits, with one number to call.",
 };
 export default function Page() {
   return (
@@ -19,7 +19,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">

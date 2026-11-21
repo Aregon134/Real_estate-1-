@@ -1,4 +1,3 @@
-import Image from "next/image";
 export function BlogBlog() {
   return (
     <>
@@ -74,9 +73,8 @@ export function BlogBlog() {
           </p>
           <div className="max-w-[260px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:mt-1.5 lg:justify-self-end">
             <p>
-              Written by the studio team: what a website should cost, how to be
-              found on Google and in AI answers, and which jobs to hand to
-              automation.
+              From Ziggloom: what a website should cost, how to be found on
+              Google and in AI answers, and which jobs to hand to automation.
             </p>
           </div>
         </div>
@@ -105,15 +103,14 @@ export function BlogBlog() {
               </span>
               <span className="relative">
                 <span className="block text-[0.75rem] font-medium tracking-[-0.04em] text-ink-1000/80">
-                  15 November 2026
+                  Studio notes
                 </span>
                 <h2 className="mt-3 max-w-[16ch] text-[1.75rem] font-semibold leading-[1.1] tracking-[-0.05em] text-pretty lg:mt-[15px] lg:text-[2.375rem]">
-                  Do I need a new website or just a redesign? How to tell which
+                  Does your website need a redesign or a rebuild?
                 </h2>
                 <span className="mt-3 line-clamp-2 block max-w-[44ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-1000/80 lg:mt-[15px] lg:text-[0.9375rem]">
-                  Some websites need a refresh and some need rebuilding. The
-                  signs for each, what each involves, and the simple things to
-                  rule out first.
+                  Watch a customer use your site, then check which problems the
+                  current platform can fix.
                 </span>
               </span>
             </a>
@@ -143,16 +140,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  1 November 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  Why doesn't my business show on Google Maps? Check this before
-                  blaming your website
+                  What to check when your business is missing from Google Maps
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Not showing on Google Maps is usually a Google Business
-                  Profile problem, not a website one. Five checks you can do
-                  today, in order, and who fixes each.
+                  Compare your public details and check the account that manages
+                  your Business Profile.
                 </p>
               </div>
             </a>
@@ -163,15 +158,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/do-you-own-your-website/thumb.2026-10-28.webp"
-                  alt="A leather folio with a contract and fountain pen, brass keys and a laptop showing a website, on a walnut desk."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -190,16 +176,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  Do you actually own your website? Questions to ask before you
-                  sign
+                  Who controls your website after launch?
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Who owns your domain, code and content decides how easily you
-                  can leave. The questions to ask a web designer before you sign
-                  anything.
+                  Check who controls the domain, hosting, content and licences
+                  before you sign.
                 </p>
               </div>
             </a>
@@ -210,15 +194,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/five-jobs-to-automate/thumb.2026-10-28.webp"
-                  alt="A monitor on a concrete desk showing an automation workflow: new enquiry, reply sent, booking reminder, review request, invoice chased."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -237,15 +212,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  Five jobs you can hand to automation this month
+                  Five routine jobs to consider automating
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Missed-call text-back, enquiry follow-ups, review requests,
-                  booking reminders and enquiry routing. What each does, what to
-                  write and what to watch.
+                  Choose a repeatable task and plan how your team will handle
+                  exceptions.
                 </p>
               </div>
             </a>
@@ -256,15 +230,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/ai-voice-receptionist/thumb.2026-10-28.webp"
-                  alt="Inside a luxury saloon at dusk, quilted leather and wood, the dashboard screen showing an assistant answering a call and booking Thursday at 2:30."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -283,16 +248,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  How an AI voice receptionist handles your missed and
-                  out-of-hours calls
+                  What should an AI receptionist handle?
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  What happens when an AI receptionist picks up a call you
-                  couldn't, what it knows, when it hands over to you, and how to
-                  sense-check the cost.
+                  Choose the calls it can answer, decide when to involve a
+                  person and test a booking before launch.
                 </p>
               </div>
             </a>
@@ -303,15 +266,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/ai-search-recommendations/thumb.2026-10-28.webp"
-                  alt="A laptop on a walnut desk at night under a brass lamp, showing an AI answer recommending three local accountants."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -330,16 +284,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  How ChatGPT and Google's AI answers decide which businesses to
-                  recommend
+                  How to describe your business for AI search
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Nobody outside these companies knows exactly how AI answers
-                  pick businesses. Here's what is known, and how to be easy to
-                  understand and quote.
+                  Make your services, location and contact details clear across
+                  the public profiles you control.
                 </p>
               </div>
             </a>
@@ -350,15 +302,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/missed-calls/thumb.2026-10-28.webp"
-                  alt="A phone on a steel workbench in a garage, its lock screen showing four missed calls."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -377,16 +320,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  What a missed call really costs a small business, and what to
-                  do about it
+                  How much could a missed enquiry be worth?
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Put a figure on missed calls with a sum you can redo yourself,
-                  then see the practical fixes, from a quick text-back to an AI
-                  receptionist.
+                  Use your call log, conversion rate and order value to estimate
+                  the cost of missed follow-up.
                 </p>
               </div>
             </a>
@@ -397,15 +338,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/what-makes-a-website-premium/thumb.2026-10-28.webp"
-                  alt="A laptop on a black stone desk showing an elegant dark website, beside a steel watch."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -424,16 +356,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  What makes a website feel premium, and the small things that
-                  quietly cheapen it
+                  What makes a product page feel considered?
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  A premium website comes from restraint, real photos, specific
-                  words and speed. The small details that quietly make a site
-                  feel cheap, and how to fix them.
+                  Help shoppers see the product, compare their options and act
+                  comfortably on a phone.
                 </p>
               </div>
             </a>
@@ -444,15 +374,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/before-you-hire-a-web-designer/thumb.2026-10-28.webp"
-                  alt="A tablet on a joiner's bench showing what to have ready before you brief a designer."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -471,15 +392,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  What to have ready before you hire a web designer
+                  What to bring to a web design brief
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Your goals, words, photos, logo, favourite sites, colours and
-                  fonts, who decides, budget and timeline. What to gather before
-                  you hire a web designer.
+                  Gather the content, decisions and account details a designer
+                  needs to scope your project.
                 </p>
               </div>
             </a>
@@ -490,15 +410,6 @@ export function BlogBlog() {
               className="blog-card group flex h-[420px] lg:h-[520px] flex-col rounded-[14px] bg-ink-1000 p-2.5 text-ink-0 md:rounded-[18px]"
             >
               <div className="flex items-start justify-between">
-                <Image
-                  src="/images/blog/why-your-website-is-slow/thumb.2026-10-28.webp"
-                  alt="A phone held on a wet city street at night, showing a website still loading."
-                  width={110}
-                  height={110}
-                  sizes="110px"
-                  quality={90}
-                  className="size-[110px] rounded-[12px] object-cover"
-                />
                 <span className="mr-3 mt-3 lg:mr-[11px] lg:mt-[11px]">
                   <svg
                     viewBox="0 0 18 18"
@@ -517,15 +428,14 @@ export function BlogBlog() {
               </div>
               <div className="mt-auto px-5 pb-5 lg:px-5 lg:pb-[30px]">
                 <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-0/60">
-                  24 October 2026
+                  Studio notes
                 </p>
                 <h2 className="mt-5 text-[1.125rem] font-medium leading-[1.3] tracking-[-0.04em] text-pretty lg:mt-[30px] lg:text-[1.25rem]">
-                  Why your website is slow, and why Google cares
+                  Where is your website slowing down?
                 </h2>
                 <p className="mt-2.5 line-clamp-3 max-w-[30ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Core Web Vitals in plain English, the usual reasons
-                  small-business websites are slow, and how to test yours for
-                  free with PageSpeed Insights.
+                  Find the delay on a representative page and measure the effect
+                  of each change.
                 </p>
               </div>
             </a>
@@ -560,8 +470,8 @@ export function BlogBlog() {
                   Got a question we haven’t answered?
                 </span>
                 <span className="pill mt-5 inline-flex h-[30px] items-center gap-5 rounded-full bg-ink-1000 pl-3 pr-[11px] text-[0.75rem] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
-                  <span className="pill-roll" data-label="Ask the founders">
-                    <span>Ask the founders</span>
+                  <span className="pill-roll" data-label="Ask Kushagra">
+                    <span>Ask Kushagra</span>
                   </span>
                   <span
                     aria-hidden="true"

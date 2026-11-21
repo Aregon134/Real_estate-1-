@@ -38,7 +38,7 @@ export function ServicesSeoServiceTitle() {
               SEO and GEO is the work that helps customers find you: on Google,
               in local search, and in the answers AI tools such as ChatGPT give.
               {
-                " It is for businesses that want steady enquiries from search, with a plain monthly report on what moved and no promised rankings. Local SEO starts at £295 a month."
+                " It is for businesses that want steady enquiries from search, with a plain monthly report on what moved and no promised rankings. Local SEO starts at ₹2,950 a month."
               }
             </span>
             <span aria-hidden="true">
@@ -201,7 +201,7 @@ export function ServicesSeoServiceTitle() {
                   at
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 52 }}>
-                  £295
+                  ₹2,950
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 53 }}>
                   a
@@ -214,7 +214,7 @@ export function ServicesSeoServiceTitle() {
           </p>
           <div className="max-w-[260px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:mt-1.5 lg:justify-self-end">
             <p>
-              From £295 a month, agreed in writing. Taxes confirmed in your
+              From ₹2,950 a month, agreed in writing. Taxes confirmed in your
               proposal.
             </p>
             <a

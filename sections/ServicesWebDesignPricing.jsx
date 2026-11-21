@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { PricingPanel } from "@/components/PricingPanel";
-import dataWebDesignGrimsbyModes from "@/content/WebDesignGrimsbyModes.json";
+import webDesignModes from "@/content/ServicesWebDesignModes.json";
 export function ServicesWebDesignPricing() {
   return (
     <>
@@ -45,7 +45,7 @@ export function ServicesWebDesignPricing() {
               Pricing.
             </h2>
           </div>
-          <PricingPanel modes={dataWebDesignGrimsbyModes} currency="£" />
+          <PricingPanel modes={webDesignModes} currency="₹" />
           <div className="mt-[60px] grid lg:mt-[120px] lg:grid-cols-4 lg:gap-x-1">
             <p className="text-[1rem] font-medium tracking-[-0.04em] text-ink-1000/70">
               Looking for more?
@@ -61,7 +61,7 @@ export function ServicesWebDesignPricing() {
               <div className="mt-[30px] flex flex-wrap items-center gap-x-8 gap-y-5 lg:mt-[50px]">
                 <div className="flex items-center gap-3">
                   <Image
-                    src="/images/founders/avatar-bradley-hoxha.2026-10-28.webp"
+                    src="/icon.svg"
                     alt=""
                     width={42}
                     height={42}
@@ -71,7 +71,7 @@ export function ServicesWebDesignPricing() {
                   />
                   <div>
                     <p className="text-[0.8125rem] font-medium tracking-[-0.04em] lg:text-[1rem]">
-                      Studio Design
+                      Kushagra Bhartia
                     </p>
                     <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-1000/60 lg:text-[0.875rem]">
                       {"Designer & developer"}

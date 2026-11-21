@@ -1,0 +1,221 @@
+.loading,
+.shell {
+  color: #f4f4f4;
+}
+.shell {
+  width: min(1180px, 100%);
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1.48fr 0.95fr;
+  background: #181818;
+  border: 1px solid #303030;
+  border-radius: 14px;
+  font-size: 16px;
+  line-height: 1.45;
+  overflow: hidden;
+}
+.shell:has(.form) {
+  max-width: 920px;
+  grid-template-columns: 0.85fr 1.15fr;
+}
+.summary,
+.calendar,
+.slots,
+.form {
+  min-width: 0;
+  padding: clamp(20px, 2.5vw, 38px);
+}
+.shell > :not(:first-child) {
+  border-left: 1px solid #323232;
+}
+.summary > p,
+.form > p {
+  color: #bbb;
+}
+.summary h1 {
+  font-size: clamp(25px, 2.1vw, 34px);
+  line-height: 1.15;
+  font-weight: 650;
+  letter-spacing: -0.035em;
+  margin: 12px 0;
+}
+.studio {
+  font-weight: 650;
+  margin-top: 14px;
+}
+.summary ul {
+  list-style: none;
+  margin: 32px 0 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+  color: #ccc;
+}
+.summary .when {
+  margin-top: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.shell h2 {
+  font-size: 20px;
+  letter-spacing: -0.025em;
+  font-weight: 650;
+}
+.row > div {
+  display: flex;
+  gap: 4px;
+}
+.shell button {
+  cursor: pointer;
+}
+.row button {
+  height: 36px;
+  min-width: 34px;
+  border-radius: 6px;
+  color: #dadada;
+  padding: 0 5px;
+}
+.calendar .row button {
+  font-size: 26px;
+}
+.row button:hover:enabled,
+.row button[aria-pressed="true"] {
+  background: #393939;
+}
+.shell button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 4px;
+}
+.grid > span {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  color: #bbb;
+}
+.grid button {
+  min-height: 38px;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  background: #393939;
+  color: #fff;
+  font-weight: 600;
+}
+.grid button:disabled {
+  background: transparent;
+}
+.grid button:hover:enabled,
+.times button:hover {
+  background: #535353;
+}
+.grid button[aria-pressed="true"],
+.grid button[aria-pressed="true"]:hover {
+  background: white;
+  color: #111;
+}
+.times {
+  display: grid;
+  gap: 8px;
+  max-height: 470px;
+  overflow: auto;
+  padding: 2px;
+}
+.times button {
+  min-height: 42px;
+  border: 1px solid #4a4a4a;
+  border-radius: 9px;
+  background: #101010;
+}
+.shell :is(button, a, input, textarea):focus-visible {
+  outline: 2px solid #8febcc;
+  outline-offset: 2px;
+}
+.form {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+.form label,
+.form legend {
+  font-weight: 550;
+}
+.form input:not([type="radio"]),
+.form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  background: #101010;
+  border: 1px solid #555;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.form fieldset {
+  display: grid;
+  gap: 6px;
+}
+.form input[type="radio"] {
+  accent-color: white;
+}
+.form .submit {
+  font-weight: 650;
+  background: white;
+  color: #151515;
+  border-radius: 9px;
+  padding: 12px;
+}
+.form a,
+.back {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.back {
+  color: #ccc;
+  justify-self: start;
+}
+.form p {
+  font-size: 14px;
+}
+.form [role="alert"] {
+  color: #ffd0b5;
+}
+@media (max-width: 840px) {
+  .shell {
+    grid-template-columns: 1.35fr 1fr;
+  }
+  .shell:not(:has(.form)) .summary {
+    grid-column: 1/-1;
+    border-bottom: 1px solid #323232;
+  }
+  .shell .calendar {
+    border-left: 0;
+  }
+}
+@media (max-width: 620px) {
+  .shell,
+  .shell:has(.form) {
+    grid-template-columns: 1fr;
+  }
+  .shell > :not(:first-child) {
+    border-left: 0;
+    border-top: 1px solid #323232;
+  }
+  .summary ul {
+    margin-top: 16px;
+  }
+  .times {
+    grid-template-columns: 1fr 1fr;
+  }
+}

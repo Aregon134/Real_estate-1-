@@ -54,6 +54,7 @@ export const HeaderBar = function ({ nav, site, projectCount, brandMark }) {
         href: "/",
       },
       ...nav,
+      { label: "Book a call", href: site.bookingUrl },
       {
         label: "Contact",
         href: "/#contact",

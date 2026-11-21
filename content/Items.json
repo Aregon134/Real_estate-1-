@@ -6,7 +6,7 @@
     "system": {
       "id": "receptionist",
       "name": "AI Voice Receptionist",
-      "price": "£349 a month"
+      "price": "₹3,490 a month"
     }
   },
   {
@@ -32,11 +32,11 @@
   {
     "name": "Garages & mechanics",
     "problem": "The phone rings while you’re under a car, and the caller books in somewhere else.",
-    "fix": "The voice receptionist answers, books the MOT or service, and sends the confirmation and a reminder.",
+    "fix": "The voice receptionist answers, books the inspection or service, and sends the confirmation and a reminder.",
     "system": {
       "id": "receptionist",
       "name": "AI Voice Receptionist",
-      "price": "£349 a month"
+      "price": "₹3,490 a month"
     }
   },
   {
@@ -56,7 +56,7 @@
     "system": {
       "id": "chatbot",
       "name": "AI Website Assistant",
-      "price": "£59 a month"
+      "price": "₹590 a month"
     }
   },
   {
@@ -76,7 +76,7 @@
     "system": {
       "id": "receptionist",
       "name": "AI Voice Receptionist",
-      "price": "£349 a month"
+      "price": "₹3,490 a month"
     }
   }
 ]

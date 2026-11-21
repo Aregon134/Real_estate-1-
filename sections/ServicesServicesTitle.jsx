@@ -127,10 +127,7 @@ export function ServicesServicesTitle() {
           </p>
           <div className="max-w-[260px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:mt-1.5 lg:justify-self-end">
             <p>
-              Websites are built in Next.js and React, written in TypeScript and
-              hosted on Vercel’s global network; Shopify stores on Shopify.
-              Every one is tested on Google Lighthouse and to WCAG 2.2 AA before
-              launch.
+              This website uses Next.js and React. We agree the platform, hosting and checks for your project in the proposal.
             </p>
           </div>
         </div>

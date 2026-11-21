@@ -5,7 +5,7 @@ export default function Policy() {
       <h1 className="text-5xl">Website terms</h1>
       <p className="my-8">
         {
-          "The site describes proposed services and displays selected reference work with permission. Final project scope, pricing, timing, tax and ownership are agreed in a written proposal."
+          "The site describes Ziggloom’s services. The showreel illustrates types of work. Final project scope, pricing, timing, tax and ownership are agreed in a written proposal."
         }
       </p>
       <a href="/">Back to Ziggloom</a>

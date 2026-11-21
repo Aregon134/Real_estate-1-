@@ -8,7 +8,7 @@ import dataTeam from "@/content/Team.json";
 export const metadata = {
   title: "Web Design & SEO Questions Answered | Ziggloom",
   description:
-    "Straight answers on web design in Grimsby: timelines, ownership, handover, monthly plans, SEO and what we need from you before a build starts.",
+    "Straight answers on web design in India: timelines, ownership, handover, monthly plans, SEO and what we need from you before a build starts.",
 };
 export default function Page() {
   return (
@@ -16,7 +16,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">
@@ -276,7 +276,7 @@ export default function Page() {
                       }
                     >
                       <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                        How much does a website cost in Grimsby?
+                        How much does a website cost in India?
                       </h3>
                       <span
                         aria-hidden="true"
@@ -296,15 +296,15 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        A website from Ziggloom costs £500 for a single page
-                        (plus £120 a year to keep it online), £1,399 for
-                        Essential, £3,000 for Signature and £4,450 for Commerce,
+                        A website from Ziggloom costs ₹5,000 for a single page
+                        (plus ₹1,200 a year to keep it online), ₹13,990 for
+                        Essential, ₹30,000 for Signature and ₹44,500 for Commerce,
                         which covers online shops on Shopify and sites with paid
                         bookings. These are clear, fixed prices for defined
                         services, agreed in writing before we start. Taxes
                         confirmed in your proposal. Larger projects are scoped
                         and quoted individually, and monthly plans for hosting,
-                        care and marketing start at £200 a month.
+                        care and marketing start at ₹2,000 a month.
                       </p>
                     </div>
                   </details>
@@ -419,8 +419,8 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        We can create one: Logo £400, Brand Starter £750, Full
-                        Brand Kit £1,500.
+                        We can create one: Logo ₹4,000, Brand Starter ₹7,500, Full
+                        Brand Kit ₹15,000.
                       </p>
                     </div>
                   </details>
@@ -750,7 +750,7 @@ export default function Page() {
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                         Yes. We rebuild it in our own code, or on Shopify for an
                         online shop, move your content across and redirect your
-                        old links so you keep your rankings. A move is scoped
+                        old links so visitors can find the new pages. A move is scoped
                         and quoted at a fixed price before we start, based on
                         how many pages or products there are, what has to come
                         across and anything it connects to.
@@ -805,7 +805,7 @@ export default function Page() {
                       }
                     >
                       <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                        Do you charge VAT?
+                        How are taxes shown?
                       </h3>
                       <span
                         aria-hidden="true"
@@ -825,8 +825,7 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        Taxes confirmed in your proposal. We’re not VAT
-                        registered.
+                        Your proposal lists the project fee and any applicable taxes before you approve it.
                       </p>
                     </div>
                   </details>
@@ -934,8 +933,8 @@ export default function Page() {
                         words and images in a simple editor (or in Shopify for
                         online shops), with training at handover. On Essential
                         we make changes for you through a monthly plan or at our
-                        hourly rate, or you can add editing for £650 before the
-                        build or £850 after. Single-page sites don’t include
+                        hourly rate, or you can add editing for ₹6,500 before the
+                        build or ₹8,500 after. Single-page sites don’t include
                         editing.
                       </p>
                     </div>
@@ -991,7 +990,7 @@ export default function Page() {
                       }
                     >
                       <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                        Do you work outside Grimsby?
+                        Do you work outside India?
                       </h3>
                       <span
                         aria-hidden="true"
@@ -1011,9 +1010,7 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        Yes. We’re based in Grimsby and work with businesses
-                        across the UK, as well as Cleethorpes, Humberston,
-                        Immingham, Scunthorpe, Louth and Hull. Everything can be
+                        Yes. Kushagra works remotely from Himachal Pradesh, India. Everything can be
                         done online, and we’re always happy to meet local
                         businesses in person.
                       </p>
@@ -1052,7 +1049,7 @@ export default function Page() {
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                         Yes: 10% of the project fee for every business you refer
-                        that books with us. That’s £300 on a Signature website,
+                        that books with us. That’s ₹3,000 on a Signature website,
                         and there’s no limit. Just tell us who’s coming before
                         they get in touch.
                       </p>
@@ -1343,10 +1340,10 @@ export default function Page() {
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                         Yes. Every build includes SEO set up and Google Business
-                        Profile set up. After launch, the Local plan (£295 a
+                        Profile set up. After launch, the Local plan (₹2,950 a
                         month) posts to your Google Business Profile every week,
                         asks customers for reviews automatically and keeps your
-                        local listings tidy; Growth (£450 a month) adds active
+                        local listings tidy; Growth (₹4,500 a month) adds active
                         SEO, GEO and AEO, with new blog posts every month.
                       </p>
                     </div>
@@ -1383,8 +1380,8 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        On Growth (£450 a month), two email campaigns a month,
-                        written, designed and sent to your list. Scale (£950 a
+                        On Growth (₹4,500 a month), two email campaigns a month,
+                        written, designed and sent to your list. Scale (₹9,500 a
                         month) adds automated welcome, birthday, win-back and
                         after-visit emails and texts, abandoned-basket and
                         launch messages on Shopify, and four extra emails or
@@ -1462,13 +1459,7 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        Not usually. UK law (PECR) allows marketing emails and
-                        texts to people who have agreed to hear from you, or to
-                        existing customers who bought from you and were given a
-                        clear chance to opt out, about similar products or
-                        services. Every message must also let them unsubscribe.
-                        Handling this properly is part of the service.
-                      </p>
+                        Use a list of people who agreed to hear from your business. We’ll review how you collect permission and how recipients can opt out before a campaign goes live.</p>
                     </div>
                   </details>
                 </li>
@@ -1503,9 +1494,9 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        £59 a month. On a 12-month agreement there is no setup
+                        ₹590 a month. On a 12-month agreement there is no setup
                         fee; month to month, with 30 days’ notice, there is a
-                        one-time £199 setup. It is a chat assistant on your
+                        one-time ₹1,990 setup. It is a chat assistant on your
                         website that answers questions and captures enquiries,
                         day and night.
                       </p>
@@ -1548,7 +1539,7 @@ export default function Page() {
                         prices, opening hours and common questions. It takes the
                         enquiry and passes it straight to you, and if you use a
                         booking system or calendar, it books the customer in.
-                        Ours is £349 a month on a 12-month agreement, with the
+                        Ours is ₹3,490 a month on a 12-month agreement, with the
                         setup waived on that commitment.
                       </p>
                     </div>
@@ -1585,11 +1576,11 @@ export default function Page() {
                     </summary>
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                        £349 a month, or £299 a month on the Scale plan. On a
+                        ₹3,490 a month, or ₹2,990 a month on the Scale plan. On a
                         12-month agreement there is no setup fee; month to
-                        month, with 30 days’ notice, there is a one-time £495
+                        month, with 30 days’ notice, there is a one-time ₹4,950
                         setup. On its own it includes 600 minutes of calls a
-                        month, then £0.25 a minute; on Scale, calls are covered
+                        month, then ₹2.50 a minute; on Scale, calls are covered
                         up to 1,500 minutes a month on a fair-use basis.
                         Always-on answering and additional sites are quoted
                         separately.
@@ -1754,7 +1745,7 @@ export default function Page() {
                     <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                       <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                         Yes, made in house in software from the photos, footage
-                        and products you provide: ad creative videos at £250
+                        and products you provide: ad creative videos at ₹2,500
                         each. We don't do photo shoots or filming. Most pieces
                         are delivered one to two working days from approved
                         direction, with full copyright on final payment. Running

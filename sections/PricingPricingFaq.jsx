@@ -146,8 +146,8 @@ export function PricingPricingFaq() {
                     and images in a simple editor (or in Shopify for online
                     shops), with training at handover. On Essential we make
                     changes for you through a monthly plan or at our hourly
-                    rate, or you can add editing for £650 before the build or
-                    £850 after. Single-page sites don’t include editing.
+                    rate, or you can add editing for ₹6,500 before the build or
+                    ₹8,500 after. Single-page sites don’t include editing.
                   </p>
                 </div>
               </details>
@@ -223,7 +223,7 @@ export function PricingPricingFaq() {
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     Yes: 10% of the project fee for every business you refer
-                    that books with us. That’s £300 on a Signature website, and
+                    that books with us. That’s ₹3,000 on a Signature website, and
                     there’s no limit. Just tell us who’s coming before they get
                     in touch.
                   </p>
@@ -401,7 +401,7 @@ export function PricingPricingFaq() {
                   }
                 >
                   <h3 className="text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
-                    Do you charge VAT?
+                    How are taxes shown?
                   </h3>
                   <span
                     aria-hidden="true"
@@ -421,7 +421,7 @@ export function PricingPricingFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    Taxes confirmed in your proposal. We’re not VAT registered.
+                    Your proposal lists the project fee and any applicable taxes before you approve it.
                   </p>
                 </div>
               </details>

@@ -64,10 +64,10 @@ export function ServicesSeoFaq() {
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
                     Yes. Every build includes SEO set up and Google Business
-                    Profile set up. After launch, the Local plan (£295 a month)
+                    Profile set up. After launch, the Local plan (₹2,950 a month)
                     posts to your Google Business Profile every week, asks
                     customers for reviews automatically and keeps your local
-                    listings tidy; Growth (£450 a month) adds active SEO, GEO
+                    listings tidy; Growth (₹4,500 a month) adds active SEO, GEO
                     and AEO, with new blog posts every month.
                   </p>
                 </div>

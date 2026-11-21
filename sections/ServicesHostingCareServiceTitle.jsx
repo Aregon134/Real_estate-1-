@@ -37,7 +37,7 @@ export function ServicesHostingCareServiceTitle() {
             <span className="sr-only">
               Hosting and care is everything that keeps your website online,
               fast and safe after launch: hosting, monitoring, security updates,
-              tested backups and small edits, on one monthly plan, from £200 a
+              tested backups and small edits, on one monthly plan, from ₹2,000 a
               month.
               {
                 " It is for sites built in our own code; Shopify stores are hosted by Shopify."
@@ -132,7 +132,7 @@ export function ServicesHostingCareServiceTitle() {
                 from
               </span>{" "}
               <span className="rise-word" style={{ "--i": 29 }}>
-                £200
+                ₹2,000
               </span>{" "}
               <span className="rise-word" style={{ "--i": 30 }}>
                 a
@@ -192,7 +192,7 @@ export function ServicesHostingCareServiceTitle() {
           </p>
           <div className="max-w-[260px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:mt-1.5 lg:justify-self-end">
             <p>
-              From £200 a month, agreed in writing. Taxes confirmed in your
+              From ₹2,000 a month, agreed in writing. Taxes confirmed in your
               proposal.
             </p>
             <a

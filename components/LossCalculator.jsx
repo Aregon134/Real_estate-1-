@@ -2,12 +2,12 @@
 
 import * as React from "react";
 let n = "text-[0.8125rem] font-medium tracking-[-0.04em] lg:text-[0.875rem]",
-  i = (e) => `\xa3${Math.round(e).toLocaleString("en-GB")}`;
+  i = (e) => `₹${Math.round(e).toLocaleString("en-IN")}`;
 export const LossCalculator = function () {
   let inputId = React.useId(),
     [missedCalls, setMissedCalls] = React.useState(10),
     [conversionRate, setConversionRate] = React.useState(30),
-    [customerValue, setCustomerValue] = React.useState(150),
+    [customerValue, setCustomerValue] = React.useState(1500),
     annualLoss = (conversionRate / 100) * missedCalls * customerValue * 52,
     sliders = [
       {
@@ -33,8 +33,8 @@ export const LossCalculator = function () {
       {
         id: "value",
         label: "Average value of a customer",
-        min: 20,
-        max: 5e3,
+        min: 200,
+        max: 50000,
         step: 10,
         v: customerValue,
         set: setCustomerValue,
@@ -81,7 +81,7 @@ export const LossCalculator = function () {
       <div className="relative flex flex-col justify-between rounded-[14px] bg-white/[0.04] p-6 lg:rounded-[18px] lg:p-8">
         <div>
           <p className={`${n} text-ink-700`}>
-            {"Walking out of the door each year"}
+            {"Illustrative annual value of missed enquiries"}
           </p>
           <p
             aria-live="polite"

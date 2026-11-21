@@ -1,4 +1,3 @@
-import Image from "next/image";
 export function AboutProcess() {
   return (
     <>
@@ -63,15 +62,6 @@ export function AboutProcess() {
                 </span>
               </div>
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
-                <Image
-                  src="/images/process/plan.2026-10-28.webp"
-                  alt=""
-                  width={51}
-                  height={51}
-                  sizes="51px"
-                  quality={90}
-                  className="size-[51px] shrink-0 rounded-[7px] object-cover"
-                />
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   The problem first, then every page planned
                 </h3>
@@ -90,15 +80,6 @@ export function AboutProcess() {
                 </span>
               </div>
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
-                <Image
-                  src="/images/process/design.2026-10-28.webp"
-                  alt=""
-                  width={51}
-                  height={51}
-                  sizes="51px"
-                  quality={90}
-                  className="size-[51px] shrink-0 rounded-[7px] object-cover"
-                />
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   A design you sign off before we build
                 </h3>
@@ -117,15 +98,6 @@ export function AboutProcess() {
                 </span>
               </div>
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
-                <Image
-                  src="/images/process/build.2026-10-28.webp"
-                  alt=""
-                  width={51}
-                  height={51}
-                  sizes="51px"
-                  quality={90}
-                  className="size-[51px] shrink-0 rounded-[7px] object-cover"
-                />
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   Built in our own code, fast from day one
                 </h3>
@@ -144,15 +116,6 @@ export function AboutProcess() {
                 </span>
               </div>
               <div className="mt-[22px] flex items-center gap-5 lg:mt-[30px]">
-                <Image
-                  src="/images/process/launch.2026-10-28.webp"
-                  alt=""
-                  width={51}
-                  height={51}
-                  sizes="51px"
-                  quality={90}
-                  className="size-[51px] shrink-0 rounded-[7px] object-cover"
-                />
                 <h3 className="max-w-[208px] text-[0.9375rem] font-medium leading-[1.3] tracking-[-0.04em] lg:text-[1.125rem]">
                   Launched only after every check passes
                 </h3>

@@ -38,7 +38,7 @@ export function ServicesWebDesignServiceTitle() {
               Web design and build is a custom website, designed for your brand
               and built in our own code, never from a template.
               {
-                " It is for businesses that want a fast site that looks as good as what they sell and turns visitors into enquiries. Built in Grimsby, at fixed prices from £500."
+                " It is for businesses that want a fast site that looks as good as what they sell and turns visitors into enquiries. Built in India, at fixed prices from ₹5,000."
               }
             </span>
             <span aria-hidden="true">
@@ -183,7 +183,7 @@ export function ServicesWebDesignServiceTitle() {
                   in
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 46 }}>
-                  Grimsby,
+                  India,
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 47 }}>
                   at
@@ -198,14 +198,14 @@ export function ServicesWebDesignServiceTitle() {
                   from
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 51 }}>
-                  £500.
+                  ₹5,000.
                 </span>
               </span>
             </span>
           </p>
           <div className="max-w-[260px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:mt-1.5 lg:justify-self-end">
             <p>
-              From £500, fixed and agreed in writing. Taxes confirmed in your
+              From ₹5,000, fixed and agreed in writing. Taxes confirmed in your
               proposal.
             </p>
             <a

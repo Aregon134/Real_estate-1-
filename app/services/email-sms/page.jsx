@@ -9,9 +9,9 @@ import dataNavigation from "@/content/Navigation.json";
 
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "Email & SMS Marketing, Lincolnshire | Ziggloom",
+  title: "Email & SMS Marketing, India | Ziggloom",
   description:
-    "Email and SMS marketing for Lincolnshire businesses: lifecycle flows and campaigns designed to match your site, with compliance handled properly.",
+    "Email and SMS marketing for India businesses: lifecycle flows and campaigns designed to match your site, with compliance handled properly.",
 };
 export default function Page() {
   return (
@@ -19,7 +19,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">

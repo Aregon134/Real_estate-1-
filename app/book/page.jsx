@@ -1,5 +1,4 @@
-import agency from "@/content/Agency.json";
-import { CalEmbed } from "@/components/CalEmbed";
+import { BookingCalendar } from "@/components/BookingCalendar";
 import { Footer } from "@/sections/Footer";
 import { HeaderBar } from "@/components/HeaderBar";
 import dataAgency from "@/content/Agency.json";
@@ -15,14 +14,14 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
-      <main id="main" className="v3 flex-1 bg-ink-950 px-6 py-24 text-ink-0">
-        <div className="mx-auto max-w-3xl">
-          <h1 className="mb-6 text-5xl font-semibold">Book a project call.</h1>
-          <CalEmbed />
-        </div>
+      <main
+        id="main"
+        className="v3 flex-1 bg-[#111] px-3 pb-20 pt-24 lg:px-8 lg:pt-36"
+      >
+        <BookingCalendar />
       </main>
       <Footer />
     </>

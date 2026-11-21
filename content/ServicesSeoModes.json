@@ -8,7 +8,7 @@
       {
         "id": "local",
         "name": "Local",
-        "price": 295,
+        "price": 2950,
         "meta": "We get you found nearby",
         "highlights": [
           "Everything in Care",
@@ -21,7 +21,7 @@
       {
         "id": "growth",
         "name": "Growth",
-        "price": 450,
+        "price": 4500,
         "meta": "We grow it",
         "highlights": [
           "Everything in Local",
@@ -34,7 +34,7 @@
       {
         "id": "scale",
         "name": "Scale",
-        "price": 950,
+        "price": 9500,
         "meta": "We run your marketing",
         "highlights": [
           "Everything in Growth",

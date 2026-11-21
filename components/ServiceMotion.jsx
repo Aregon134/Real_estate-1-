@@ -115,7 +115,7 @@ function Elementk({ scene }) {
               lineHeight: "5.2cqw",
             }}
           >
-            {"your-business.co.uk"}
+            {"your-business.example"}
           </Elementi>
           <Elementi
             k="sm-ink"
@@ -237,7 +237,7 @@ function Elementk({ scene }) {
             {"Linen shirt"}
           </Elementi>
           <Elementi k="sm-rise sm-txt sm-mute" l={57} t={26} fs={3.2} d={0.6}>
-            {"£48.00"}
+            {"₹480"}
           </Elementi>
           {["S", "M", "L"].map((s, e) => (
             <Elementi
@@ -296,9 +296,9 @@ function Elementk({ scene }) {
             {"+3"}
           </Elementi>
           {[
-            ["#1042", "2 items", "£96.00"],
-            ["#1043", "1 item", "£48.00"],
-            ["#1044", "3 items", "£132.00"],
+            ["#1042", "2 items", "₹960"],
+            ["#1043", "1 item", "₹480"],
+            ["#1044", "3 items", "₹1,320"],
           ].map(([s, e, r], l) => (
             <Elementi
               k="sm-rise sm-row"
@@ -338,7 +338,7 @@ function Elementk({ scene }) {
           <Elementi k="sm-field sm-outline" l={7} t={7} r={7} h={11.5} />
           <Elementi k="sm-lens" l={11.5} t={10.8} w={4} h={4} />
           <Elementi k="sm-wipe sm-txt" l={18.5} t={10.9} fs={3.3} d={0.2}>
-            {"web design grimsby"}
+            {"web design near me"}
           </Elementi>
           {[0, 1].map((s) => (
             <Elementi
@@ -360,7 +360,7 @@ function Elementk({ scene }) {
               {"Your Business · Web Design"}
             </Elementi>
             <Elementi k="sm-txt sm-mute" l={10} t={7.4} fs={2.5}>
-              {"yourbusiness.co.uk"}
+              {"yourbusiness.example"}
             </Elementi>
             <Elementi k="sm-badge sm-rank" r={0} t={1.2} w={8} h={8} fs={4.2}>
               {"1"}
@@ -486,7 +486,7 @@ function Elementk({ scene }) {
               borderRadius: "4cqw 4cqw 4cqw 1cqw",
             }}
           >
-            {"Of course. What's your postcode?"}
+            {"Of course. What's your PIN code?"}
           </Elementi>
           <Elementi
             k="sm-rise sm-bubble sm-ink sm-txt"
@@ -501,7 +501,7 @@ function Elementk({ scene }) {
               borderRadius: "4cqw 4cqw 1cqw 4cqw",
             }}
           >
-            {"DN35"}
+            {"110001"}
           </Elementi>
           <Elementi
             k="sm-pop sm-pill sm-outline sm-txt"
@@ -533,7 +533,7 @@ function Elementk({ scene }) {
             {"AI receptionist"}
           </Elementi>
           <Elementi k="sm-txt sm-dim" l={25} t={16.5} fs={2.6}>
-            {"07700 900123 · 18:42"}
+            {"Incoming call · 18:42"}
           </Elementi>
           <Elementi k="sm-rise" l={8} r={8} t={30} h={18} d={1.4}>
             {c.map((s, e) => (
@@ -643,7 +643,7 @@ function Elementk({ scene }) {
           </Elementi>
           <Elementi k="sm-rise sm-bubble-in" l={7} t={34} w={66} h={21} d={0.4}>
             <Elementi k="sm-txt sm-wrap" l={4.5} r={4} t={4} fs={2.9}>
-              {"Reminder: your MOT is tomorrow at 8:30. Reply C to cancel."}
+              {"Reminder: your service is tomorrow at 8:30. Reply C to cancel."}
             </Elementi>
           </Elementi>
           <Elementi

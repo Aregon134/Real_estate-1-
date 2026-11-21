@@ -231,7 +231,7 @@ export function ServicesCreativeServiceTitle() {
           </p>
           <div className="max-w-[260px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:mt-1.5 lg:justify-self-end">
             <p>
-              Logos from £400, ad videos £250 each. Taxes confirmed in your
+              Logos from ₹4,000, ad videos ₹2,500 each. Taxes confirmed in your
               proposal.
             </p>
             <a

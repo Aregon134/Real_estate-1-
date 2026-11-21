@@ -13,13 +13,6 @@
   padding: 8px 24px;
   max-width: 1088px;
 }
-a[href*="blacklineagency0"],
-a[href*="blacklineagency/"],
-a[href*="linkedin.com/company/blackline"],
-a[href*="instagram.com/blackline"],
-a[href*="blacklineagency/call"] {
-  display: none !important;
-}
 footer form:has(input[type="email"]),
 footer h2:has(+ form) {
   display: none;

@@ -360,7 +360,7 @@ export function HowWeWorkHowTitle() {
             <li className="flex flex-col justify-between gap-8 rounded-[14px] bg-ink-1000 p-6 lg:min-h-[260px] lg:rounded-[18px] lg:p-[30px]">
               <div className="flex items-start justify-between gap-4">
                 <p className="text-[0.8125rem] font-medium tracking-[-0.04em] text-ink-0/60 lg:text-[0.875rem]">
-                  Two of us
+                  Your point of contact
                 </p>
                 <span
                   aria-hidden="true"
@@ -371,11 +371,10 @@ export function HowWeWorkHowTitle() {
               </div>
               <div>
                 <h3 className="text-[1.25rem] font-medium leading-[1.2] tracking-[-0.04em] lg:text-[1.5rem]">
-                  One answer
+                  Direct communication
                 </h3>
                 <p className="mt-3 text-[0.875rem] font-medium leading-[1.45] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                  Brad leads design and build, Systems coordinates your project,
-                  and we agree scope and price together.
+                  Kushagra is your project contact from the first conversation through handover.
                 </p>
               </div>
             </li>

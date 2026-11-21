@@ -8,7 +8,7 @@
       {
         "id": "growth",
         "name": "Growth",
-        "price": 450,
+        "price": 4500,
         "meta": "We grow it",
         "highlights": [
           "Everything in Local",
@@ -21,7 +21,7 @@
       {
         "id": "scale",
         "name": "Scale",
-        "price": 950,
+        "price": 9500,
         "meta": "We run your marketing",
         "highlights": [
           "Everything in Growth",
@@ -35,7 +35,7 @@
     "addOn": {
       "name": "Email & SMS Marketing",
       "title": "What’s included where?",
-      "text": "Email campaigns from £450 a month on Growth. Texts and automated messages on Scale, £950 a month, with 2,000 texts included."
+      "text": "Email campaigns from ₹4,500 a month on Growth. Texts and automated messages on Scale, ₹9,500 a month, with 2,000 texts included."
     }
   }
 ]

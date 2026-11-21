@@ -63,8 +63,8 @@ export function ServicesEmailSmsFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    On Growth (£450 a month), two email campaigns a month,
-                    written, designed and sent to your list. Scale (£950 a
+                    On Growth (₹4,500 a month), two email campaigns a month,
+                    written, designed and sent to your list. Scale (₹9,500 a
                     month) adds automated welcome, birthday, win-back and
                     after-visit emails and texts, abandoned-basket and launch
                     messages on Shopify, and four extra emails or texts a month,
@@ -142,13 +142,7 @@ export function ServicesEmailSmsFaq() {
                 </summary>
                 <div className="faq-answer px-5 pb-5 lg:px-[26px] lg:pb-[26px]">
                   <p className="max-w-[62ch] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:text-[0.9375rem]">
-                    Not usually. UK law (PECR) allows marketing emails and texts
-                    to people who have agreed to hear from you, or to existing
-                    customers who bought from you and were given a clear chance
-                    to opt out, about similar products or services. Every
-                    message must also let them unsubscribe. Handling this
-                    properly is part of the service.
-                  </p>
+                    Use a list of people who agreed to hear from your business. We’ll review how you collect permission and how recipients can opt out before a campaign goes live.</p>
                 </div>
               </details>
             </li>

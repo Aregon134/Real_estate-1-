@@ -9,9 +9,9 @@ import dataNavigation from "@/content/Navigation.json";
 
 import dataTeam from "@/content/Team.json";
 export const metadata = {
-  title: "Branding & Ad Creative, Lincolnshire | Ziggloom",
+  title: "Branding & Ad Creative, India | Ziggloom",
   description:
-    "Branding and ad creative made in-house in Lincolnshire: logos, copywriting, and static and video ads made from your own photos and products, in every ratio.",
+    "Branding and ad creative made in-house in India: logos, copywriting, and static and video ads made from your own photos and products, in every ratio.",
 };
 export default function Page() {
   return (
@@ -19,7 +19,7 @@ export default function Page() {
       <HeaderBar
         nav={dataNavigation}
         site={dataAgency}
-        projectCount={7}
+        projectCount={1}
         brandMark="™"
       />
       <main id="main" className="v3 flex-1">

@@ -39,7 +39,7 @@ export function ServicesEmailSmsServiceTitle() {
               customers back: welcome and win-back emails, regular campaigns,
               and texts for the moments that cannot wait.
               {
-                " It is for businesses with a customer list who want more repeat sales. Email campaigns start at £450 a month on Growth; texts and automated messages come with Scale at £950 a month."
+                " It is for businesses with a customer list who want more repeat sales. Email campaigns start at ₹4,500 a month on Growth; texts and automated messages come with Scale at ₹9,500 a month."
               }
             </span>
             <span aria-hidden="true">
@@ -178,7 +178,7 @@ export function ServicesEmailSmsServiceTitle() {
                   at
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 44 }}>
-                  £450
+                  ₹4,500
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 45 }}>
                   a
@@ -217,7 +217,7 @@ export function ServicesEmailSmsServiceTitle() {
                   at
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 57 }}>
-                  £950
+                  ₹9,500
                 </span>{" "}
                 <span className="rise-word" style={{ "--i": 58 }}>
                   a
@@ -230,7 +230,7 @@ export function ServicesEmailSmsServiceTitle() {
           </p>
           <div className="max-w-[260px] text-[0.8125rem] font-medium leading-[1.4] tracking-[-0.04em] text-ink-0/60 lg:mt-1.5 lg:justify-self-end">
             <p>
-              From £450 a month, agreed in writing. Taxes confirmed in your
+              From ₹4,500 a month, agreed in writing. Taxes confirmed in your
               proposal.
             </p>
             <a
@@ -419,7 +419,7 @@ export function ServicesEmailSmsServiceTitle() {
                     </span>
                     <div>
                       <p className="text-[1rem] font-medium leading-[1.4] tracking-[-0.04em] lg:text-[1.125rem]">
-                        {"GDPR & PECR compliance"}
+                        {"Consent and unsubscribe settings"}
                       </p>
                     </div>
                   </li>

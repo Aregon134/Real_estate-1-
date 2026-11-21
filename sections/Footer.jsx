@@ -33,10 +33,10 @@ export function Footer() {
               </span>
               <div className="grid mt-[41px] justify-items-start gap-2 lg:mt-[81px]">
                 <a
-                  href={`mailto:${agency.email}`}
+                  href={agency.phoneHref}
                   className="inline-flex min-h-6 items-center text-[1.125rem] font-medium leading-[1.2] tracking-[-0.04em] transition-opacity duration-200 hover:opacity-60"
                 >
-                  Email Ziggloom
+                  {agency.phone}
                 </a>
                 <a
                   href={`mailto:${agency.email}`}
@@ -50,7 +50,7 @@ export function Footer() {
                     <span className="absolute h-0.5 w-2 bg-ink-1000" />
                   </span>
                   <span className="relative whitespace-nowrap pb-[3px] text-[min(1.625rem,calc((100vw-4.5rem)/14.2))] font-semibold leading-[1.15] tracking-[-0.05em] lg:text-[2.125rem]">
-                    kushagrak134@gmail.com
+                    {agency.email}
                     <span
                       aria-hidden="true"
                       className="absolute inset-x-0 bottom-0 h-0.5 bg-ink-0 transition-opacity duration-200 group-hover:opacity-0"
@@ -202,7 +202,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="/web-design-grimsby"
+                    href={agency.linkedin}
                     className="group relative inline-flex min-h-6 items-center text-[1.125rem] font-medium leading-[1.2] tracking-[-0.04em] lg:text-[1.375rem]"
                   >
                     <span
@@ -210,7 +210,7 @@ export function Footer() {
                       className="absolute -left-3 top-1/2 size-2 -translate-y-1/2 rounded-full bg-ink-0 opacity-0 transition-opacity duration-[250ms] group-hover:opacity-25"
                     />
                     <span className="inline-block transition-transform duration-[250ms] ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none group-hover:translate-x-[15px]">
-                      Web design in Grimsby
+                      Kushagra on LinkedIn
                     </span>
                   </a>
                 </li>
@@ -260,9 +260,9 @@ export function Footer() {
               Terms of Service
             </a>
             <p className="mt-4 text-[0.8125rem] lg:ml-auto lg:mt-0">
-              Designed and built by{" "}
+              Project contact{" "}
               <Image
-                src="/images/founders/avatar-bradley-hoxha.2026-10-28.webp"
+                src="/icon.svg"
                 alt=""
                 width={28}
                 height={28}
@@ -270,7 +270,7 @@ export function Footer() {
                 quality={90}
                 className="mx-0.5 inline-block size-7 rounded-full object-cover align-middle"
               />{" "}
-              Studio Design
+              Kushagra Bhartia
             </p>
           </div>
         </div>

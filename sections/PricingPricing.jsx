@@ -40,7 +40,7 @@ export function PricingPricing() {
               Prices at a glance
             </h2>
           </div>
-          <PricingPanel modes={dataPricingModes} currency="£" />
+          <PricingPanel modes={dataPricingModes} currency="₹" />
         </div>
       </section>
     </>
