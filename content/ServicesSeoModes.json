@@ -1,0 +1,54 @@
+[
+  {
+    "id": "monthly",
+    "label": "Monthly",
+    "suffix": "/month",
+    "initial": "local",
+    "tiers": [
+      {
+        "id": "local",
+        "name": "Local",
+        "price": 295,
+        "meta": "We get you found nearby",
+        "highlights": [
+          "Everything in Care",
+          "Weekly Google Business Profile posts",
+          "Automatic review requests after each visit or booking"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "None"
+      },
+      {
+        "id": "growth",
+        "name": "Growth",
+        "price": 450,
+        "meta": "We grow it",
+        "highlights": [
+          "Everything in Local",
+          "SEO, GEO and AEO maintenance and optimisation",
+          "4 blog posts a month"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months"
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "price": 950,
+        "meta": "We run your marketing",
+        "highlights": [
+          "Everything in Growth",
+          "Automated welcome, birthday, win-back and after-visit emails and texts",
+          "8 blog posts a month"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months"
+      }
+    ],
+    "addOn": {
+      "name": "SEO & GEO",
+      "title": "What’s included where?",
+      "text": "Local SEO starts on the Local plan. SEO, GEO and AEO start on Growth and carry into Scale."
+    }
+  }
+]

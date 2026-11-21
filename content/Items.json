@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Restaurants & hospitality",
+    "problem": "Bookings and enquiries come in while the kitchen is busy, and nobody can get to the phone.",
+    "fix": "The AI voice receptionist answers, takes the booking and texts you the details.",
+    "system": {
+      "id": "receptionist",
+      "name": "AI Voice Receptionist",
+      "price": "£349 a month"
+    }
+  },
+  {
+    "name": "Estate agents & property",
+    "problem": "Viewing requests and valuations go to whichever agent replies first.",
+    "fix": "Speed-to-lead replies to every enquiry within a minute and books the viewing straight into your diary.",
+    "system": {
+      "id": "speed-to-lead",
+      "name": "Speed-to-lead",
+      "price": null
+    }
+  },
+  {
+    "name": "Car dealers",
+    "problem": "Finance and test-drive enquiries go cold overnight.",
+    "fix": "Speed-to-lead follows up every one in minutes, and the CRM keeps the chase going.",
+    "system": {
+      "id": "speed-to-lead",
+      "name": "Speed-to-lead",
+      "price": null
+    }
+  },
+  {
+    "name": "Garages & mechanics",
+    "problem": "The phone rings while you’re under a car, and the caller books in somewhere else.",
+    "fix": "The voice receptionist answers, books the MOT or service, and sends the confirmation and a reminder.",
+    "system": {
+      "id": "receptionist",
+      "name": "AI Voice Receptionist",
+      "price": "£349 a month"
+    }
+  },
+  {
+    "name": "Trades & construction",
+    "problem": "Quotes wait until the evening, because you’re on site all day.",
+    "fix": "Quote automation turns the enquiry into a draft quote, ready for you to check and send.",
+    "system": {
+      "id": "admin",
+      "name": "Quote & Admin Automation",
+      "price": null
+    }
+  },
+  {
+    "name": "Clinics & aesthetics",
+    "problem": "Appointment requests and questions arrive after hours.",
+    "fix": "The website assistant answers questions on the spot, and the voice receptionist takes the calls.",
+    "system": {
+      "id": "chatbot",
+      "name": "AI Website Assistant",
+      "price": "£59 a month"
+    }
+  },
+  {
+    "name": "Retail & boutiques",
+    "problem": "Customers buy once and forget you, and happy ones rarely leave a review.",
+    "fix": "Win-back campaigns bring them back, and the review engine asks at the right moment.",
+    "system": {
+      "id": "win-back",
+      "name": "Win-back Campaigns",
+      "price": null
+    }
+  },
+  {
+    "name": "Golf & leisure clubs",
+    "problem": "Visitor calls, tee times and membership enquiries ring out at busy times.",
+    "fix": "The voice receptionist answers with your tee times, prices and membership details.",
+    "system": {
+      "id": "receptionist",
+      "name": "AI Voice Receptionist",
+      "price": "£349 a month"
+    }
+  }
+]

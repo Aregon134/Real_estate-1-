@@ -1,0 +1,167 @@
+[
+  {
+    "id": "project",
+    "label": "Per project",
+    "suffix": "/project",
+    "initial": "signature",
+    "tiers": [
+      {
+        "id": "single-page",
+        "name": "Single page",
+        "price": 500,
+        "meta": "For cafés, small shops and anyone who just needs to be found online. Hosting £120 a year.",
+        "highlights": [
+          "One page, custom-designed in your brand",
+          "Tap-to-call phone number",
+          "Google Business Profile linked up"
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "1–2 working days"
+      },
+      {
+        "id": "essential",
+        "name": "Essential",
+        "price": 1399,
+        "meta": "For sole traders and new starts",
+        "highlights": [
+          "Up to 5 pages in your brand",
+          "Editing add-on: £650 before the build, £850 after",
+          "SEO foundations built in"
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "5 working days"
+      },
+      {
+        "id": "signature",
+        "name": "Signature",
+        "price": 3000,
+        "meta": "For established businesses that want to be found and win more enquiries",
+        "highlights": [
+          "Up to 10 pages designed from scratch",
+          "Self-editable pages (CMS)",
+          "Everything in Essential, plus GEO: structured to be recommended by AI search"
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "10 working days"
+      },
+      {
+        "id": "commerce",
+        "name": "Commerce",
+        "price": 4450,
+        "meta": "For shops, venues and bookings. Most online shops are built on Shopify by our studio, with a custom design for your brand. Booking sites, and shops that already take card payments another way, are built in our own code.",
+        "highlights": [
+          "Everything in Signature",
+          "Online selling or paid bookings",
+          "Up to 15 pages and 50 products loaded"
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "2 weeks"
+      }
+    ],
+    "addOn": {
+      "name": "Growth plan",
+      "title": "Want more traffic and enquiries?",
+      "text": "Add the Growth plan: SEO, GEO and AEO optimisation, four blog posts and two email campaigns every month.",
+      "price": 450
+    },
+    "note": "Every build ships with search built in. Staying found is ongoing work (reviews, Google posts, blog posts and reports), and that’s what the monthly plans do: Local keeps you found nearby, and Growth adds SEO, GEO and AEO content every month."
+  },
+  {
+    "id": "monthly",
+    "label": "Monthly",
+    "suffix": "/month",
+    "initial": "growth",
+    "tiers": [
+      {
+        "id": "care",
+        "name": "Care",
+        "price": 200,
+        "meta": "We look after it",
+        "highlights": [
+          "Hosting, security certificate and renewals managed",
+          "Daily uptime monitoring, fixed within 1 working day",
+          "Weekly tested backups and monthly security updates"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "None"
+      },
+      {
+        "id": "local",
+        "name": "Local",
+        "price": 295,
+        "meta": "We get you found nearby",
+        "highlights": [
+          "Everything in Care",
+          "Weekly Google Business Profile posts",
+          "Automatic review requests after each visit or booking"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "None"
+      },
+      {
+        "id": "growth",
+        "name": "Growth",
+        "price": 450,
+        "meta": "We grow it",
+        "highlights": [
+          "Everything in Local",
+          "SEO, GEO and AEO maintenance and optimisation",
+          "4 blog posts a month"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months"
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "price": 950,
+        "meta": "We run your marketing",
+        "highlights": [
+          "Everything in Growth",
+          "Automated welcome, birthday, win-back and after-visit emails and texts",
+          "8 blog posts a month"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months"
+      }
+    ],
+    "addOn": {
+      "name": "AI Voice Receptionist",
+      "title": "Never miss another call?",
+      "text": "Add the AI Voice Receptionist: it answers missed and out-of-hours calls. On a 12-month agreement.",
+      "price": 349
+    }
+  },
+  {
+    "id": "partnership",
+    "label": "Partnership",
+    "suffix": "to your goals",
+    "initial": "partnership",
+    "tiers": [
+      {
+        "id": "partnership",
+        "name": "Partnership",
+        "price": null,
+        "priceLabel": "Scoped",
+        "meta": "For established businesses that want one team behind their website, their search optimisation and the AI software that runs their day-to-day work, rather than a one-off build.",
+        "highlights": [
+          "Your website and search optimisation, run by one team",
+          "Custom AI software built around how your business runs: workflows, assistants, CRMs and reporting that take repetitive work off your team",
+          "Scoped around your goals on a call",
+          "The monthly fee and terms agreed in writing"
+        ],
+        "rowLabel": "More than one site?",
+        "rowValue": "Multi-site discount"
+      }
+    ],
+    "addOn": {
+      "name": "Partnership",
+      "title": "How does it start?",
+      "text": "A call about where you want the business to go. Then the scope, fee and terms, agreed together in writing."
+    },
+    "cta": {
+      "label": "Book a scoping call",
+      "href": "/book/"
+    }
+  }
+]

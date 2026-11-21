@@ -1,0 +1,228 @@
+[
+  {
+    "id": "project",
+    "label": "Per project",
+    "suffix": "/project",
+    "initial": "signature",
+    "tiers": [
+      {
+        "id": "single-page",
+        "name": "Single page",
+        "price": 500,
+        "meta": "For cafés, small shops and anyone who just needs to be found online. Hosting £120 a year.",
+        "highlights": [
+          "One page, custom-designed in your brand",
+          "Tap-to-call phone number",
+          "Google Business Profile linked up",
+          "Opening hours and address, with a Google Map",
+          "A short menu or list of services",
+          "A few of your photos",
+          "Links to your social media",
+          "One round of changes"
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "1–2 working days",
+        "note": "Not included: contact form, extra pages, custom design, copywriting, self-editing."
+      },
+      {
+        "id": "essential",
+        "name": "Essential",
+        "price": 1399,
+        "meta": "For sole traders and new starts",
+        "highlights": [
+          "Up to 5 pages, custom-designed in your brand",
+          "Mobile-first",
+          "SEO foundations built in: page titles and descriptions, a sitemap and Google Search Console",
+          "Google Business Profile set up",
+          "Working contact form",
+          "Privacy and cookie pages",
+          "One round of changes"
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "5 working days",
+        "note": "Changes after launch. Essential doesn’t include editing. We make your changes through a monthly plan or at our hourly rate. Want to edit it yourself? Add editing for £650 before the build, or £850 after."
+      },
+      {
+        "id": "signature",
+        "name": "Signature",
+        "price": 3000,
+        "meta": "For established businesses that want to be found and win more enquiries",
+        "highlights": [
+          "Everything in Essential, including SEO foundations and Google Business Profile set up",
+          "Up to 10 pages designed from scratch",
+          "Planning session before design starts",
+          "Scroll animation and interaction design",
+          "Self-editable pages (CMS): change your own text and photos, with a guide and walkthrough video at launch",
+          "Copywriting support",
+          "GEO: structured to be recommended by AI search",
+          "Old links redirected",
+          "Enquiry and booking tracking",
+          "Two rounds of changes"
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "10 working days",
+        "note": null
+      },
+      {
+        "id": "commerce",
+        "name": "Commerce",
+        "price": 4450,
+        "meta": "For shops, venues and bookings. Most online shops are built on Shopify by our studio, with a custom design for your brand. Booking sites, and shops that already take card payments another way, are built in our own code.",
+        "highlights": [
+          "Everything in Signature",
+          "Online selling or paid bookings, with the booking system included",
+          "Up to 15 pages and 50 products loaded (extra products £85/hr)",
+          "Conversion-focused product or property pages",
+          "Payments and order emails",
+          "Abandoned-basket reminders",
+          "Three rounds of changes",
+          "Shopify store with a custom theme (online shops)",
+          "You pay Shopify’s monthly plan directly."
+        ],
+        "rowLabel": "Delivery time",
+        "rowValue": "2 weeks",
+        "note": null
+      }
+    ],
+    "addOn": {
+      "name": "Growth plan",
+      "title": "Want more traffic and enquiries?",
+      "text": "Add the Growth plan: SEO, GEO and AEO optimisation, four blog posts and two email campaigns every month.",
+      "price": 450
+    },
+    "note": [
+      "Every build ships with search built in. Staying found is ongoing work (reviews, Google posts, blog posts and reports), and that’s what the monthly plans do: Local keeps you found nearby, and Growth adds SEO, GEO and AEO content every month.",
+      "Every site is tested on Google’s own speed test before launch. Shopify stores are built for speed.",
+      "Timelines run from your start date, once we have your content.",
+      "Projects are booked into our schedule in the order deposits arrive. We confirm your start date once your deposit clears.",
+      "Every website is built in our own code, never WordPress or Squarespace templates. Most online shops are built on Shopify, the world’s leading e-commerce platform, with a custom design for your brand. If you already take card payments another way, we can build the shop in our own code around it."
+    ],
+    "anchor": "builds"
+  },
+  {
+    "id": "monthly",
+    "label": "Monthly",
+    "suffix": "/month",
+    "initial": "growth",
+    "tiers": [
+      {
+        "id": "care",
+        "name": "Care",
+        "price": 200,
+        "meta": "We look after it",
+        "highlights": [
+          "Hosting on fast servers, with your security certificate and domain renewals managed",
+          "Daily uptime monitoring, fixed within 1 working day if your site goes down",
+          "Weekly tested backups and monthly security updates",
+          "Monthly speed check and technical SEO health: broken links fixed, Google indexing checked",
+          "Google Business Profile details and opening hours kept up to date",
+          "1 hour of changes a month, done within 2 working days",
+          "A monthly plain-English report: uptime, visitors and enquiries",
+          "For sites built in our own code."
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "None",
+        "note": "No minimum term, 30 days’ notice. Pay yearly and save 10%."
+      },
+      {
+        "id": "local",
+        "name": "Local",
+        "price": 295,
+        "meta": "We get you found nearby",
+        "highlights": [
+          "Everything in Care",
+          "Weekly Google Business Profile posts, using photos and news you send us",
+          "Automatic review requests after each visit or booking",
+          "Local SEO and directory listings kept tidy",
+          "A monthly local ranking report"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "None",
+        "note": "No minimum term, 30 days’ notice. Pay yearly and save 10%."
+      },
+      {
+        "id": "growth",
+        "name": "Growth",
+        "price": 450,
+        "meta": "We grow it",
+        "highlights": [
+          "Everything in Local",
+          "SEO, GEO and AEO maintenance and optimisation",
+          "A keyword and content plan, refreshed every quarter",
+          "4 blog posts a month, written to help you rank",
+          "2 email campaigns a month, written, designed and sent to your list",
+          "Conversion tracking, and a report on 25 search terms and the enquiries they bring"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months",
+        "note": "3-month minimum, then 30 days’ notice. Pay yearly and save 10%."
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "price": 950,
+        "meta": "We run your marketing",
+        "highlights": [
+          "Everything in Growth",
+          "Automated welcome, birthday, win-back and after-visit emails and texts, plus abandoned-basket and launch messages on Shopify",
+          "4 extra emails or texts a month, with 2,000 texts included",
+          "Replies to your Google reviews",
+          "8 blog posts a month instead of 4",
+          "A monthly test to win you more enquiries",
+          "Up to 4 hours of changes a month, answered the same day",
+          "A quarterly strategy session and priority support",
+          "The AI Voice Receptionist at £299 a month instead of £349"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months",
+        "note": "3-month minimum, then 30 days’ notice. Pay yearly: pay for 10 months, get 12."
+      }
+    ],
+    "addOn": {
+      "name": "AI Voice Receptionist",
+      "title": "Never miss another call?",
+      "text": "Add the AI Voice Receptionist: it answers missed and out-of-hours calls. On a 12-month agreement.",
+      "price": 349
+    },
+    "anchor": "plans",
+    "note": [
+      "Monthly hours reset each month.",
+      "Every client chooses before the build starts: a monthly plan, or a handover.",
+      "Not included on any plan: ad spend or ad management, new pages, new features or design changes.",
+      "Shopify stores are hosted by Shopify, so they don’t need Care. They start on Growth, and Scale adds automated abandoned-basket, win-back and launch emails and texts.",
+      "Need something specific? If your business needs something these plans don’t cover, we’ll scope a monthly plan around it, with its own deliverables, fee and terms agreed in writing."
+    ]
+  },
+  {
+    "id": "partnership",
+    "label": "Partnership",
+    "suffix": "to your goals",
+    "initial": "partnership",
+    "tiers": [
+      {
+        "id": "partnership",
+        "name": "Partnership",
+        "price": null,
+        "priceLabel": "Scoped",
+        "meta": "For established businesses that want one team behind their website, their search optimisation and the AI software that runs their day-to-day work, rather than a one-off build.",
+        "highlights": [
+          "Your website and search optimisation, run by one team",
+          "Custom AI software built around how your business runs: workflows, assistants, CRMs and reporting that take repetitive work off your team",
+          "Scoped around your goals on a call",
+          "The monthly fee and terms agreed in writing"
+        ],
+        "rowLabel": "More than one site?",
+        "rowValue": "Multi-site discount"
+      }
+    ],
+    "addOn": {
+      "name": "Partnership",
+      "title": "How does it start?",
+      "text": "A call about where you want the business to go. Then the scope, fee and terms, agreed together in writing."
+    },
+    "cta": {
+      "label": "Book a scoping call",
+      "href": "/book/"
+    }
+  }
+]

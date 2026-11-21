@@ -1,0 +1,86 @@
+[
+  {
+    "id": "branding",
+    "label": "Branding",
+    "suffix": "/project",
+    "initial": "brand-starter",
+    "tiers": [
+      {
+        "id": "logo",
+        "name": "Logo",
+        "price": 400,
+        "meta": "A logo, ready for everything",
+        "highlights": [
+          "3 concepts",
+          "2 rounds of changes",
+          "Full file set: colour, black, white, icon and vector"
+        ],
+        "rowLabel": "Copyright",
+        "rowValue": "Yours on final payment"
+      },
+      {
+        "id": "brand-starter",
+        "name": "Brand Starter",
+        "price": 750,
+        "meta": "Recommended alongside a website",
+        "highlights": [
+          "Logo",
+          "Colour palette",
+          "Fonts",
+          "A one-page brand sheet"
+        ],
+        "rowLabel": "Copyright",
+        "rowValue": "Yours on final payment"
+      },
+      {
+        "id": "brand-kit",
+        "name": "Full Brand Kit",
+        "price": 1500,
+        "meta": "Everything a growing brand needs",
+        "highlights": [
+          "Logo suite",
+          "Palette",
+          "Typography",
+          "Brand guidelines",
+          "Social templates",
+          "Business card and letterhead"
+        ],
+        "rowLabel": "Copyright",
+        "rowValue": "Yours on final payment"
+      }
+    ],
+    "addOn": {
+      "name": "Ownership",
+      "title": "You pay once, and the work is yours, permanently.",
+      "text": "Full copyright passes to you on final payment. No licence fee, no royalties, no expiry, and you keep the source files."
+    },
+    "note": "Running the ads is separate: Meta ads management is its own quoted service, and you pay the ad spend directly."
+  },
+  {
+    "id": "ads",
+    "label": "Ad creative",
+    "suffix": "/video",
+    "initial": "ad-0",
+    "tiers": [
+      {
+        "id": "ad-0",
+        "name": "Ad creative video",
+        "price": 250,
+        "meta": "15–30 seconds, made in software from your content",
+        "highlights": [
+          "Cut to 9:16, 16:9, 4:5 and 1:1. Alternate hooks included.",
+          "One to two working days. Made in house, from your written sign-off on the direction.",
+          "One round of notes per piece. Further rounds £75."
+        ],
+        "rowLabel": "Turnaround",
+        "rowValue": "1–2 working days"
+      }
+    ],
+    "addOn": {
+      "name": "Ownership",
+      "title": "You pay once, and the work is yours, permanently.",
+      "text": "Full copyright passes to you on final payment. No licence fee, no royalties, no expiry, and you keep the source files."
+    },
+    "note": "Running the ads is separate: Meta ads management is its own quoted service, and you pay the ad spend directly."
+  }
+]

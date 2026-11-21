@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Web design and development",
+    "line": "Custom sites, designed in-house and custom-built in Next.js. Essential goes live in 5 working days.",
+    "tags": [
+      "Designed in-house",
+      "Custom-built in Next.js",
+      "Mobile-first",
+      "SEO set up",
+      "Editing on Signature"
+    ],
+    "href": "/services/web-design",
+    "thumbs": [
+      {
+        "motion": "web-build"
+      },
+      {
+        "motion": "web-score"
+      }
+    ]
+  },
+  {
+    "title": "Shopify and e-commerce",
+    "line": "Custom Shopify stores from our studio, built for speed. You manage your products and orders yourself.",
+    "tags": [
+      "Custom Shopify design",
+      "Up to 50 products loaded",
+      "Payments and order emails",
+      "Booking sites"
+    ],
+    "href": "/services/shopify",
+    "thumbs": [
+      {
+        "motion": "shop-product"
+      },
+      {
+        "motion": "shop-orders"
+      }
+    ]
+  },
+  {
+    "title": "SEO and GEO",
+    "line": "Found on Google, and structured so ChatGPT and Google’s AI answers can understand you and recommend you.",
+    "tags": [
+      "Google Business Profile",
+      "Local SEO",
+      "GEO",
+      "AEO",
+      "Review requests"
+    ],
+    "href": "/services/seo",
+    "thumbs": [
+      {
+        "motion": "seo-rank"
+      },
+      {
+        "motion": "seo-answer"
+      }
+    ]
+  },
+  {
+    "title": "AI and workflow automation",
+    "line": "AI receptionists and chat, CRMs, follow-ups, reminders and review requests that run on their own.",
+    "tags": [
+      "AI receptionist",
+      "AI website assistant",
+      "CRM",
+      "Follow-ups",
+      "Reminders"
+    ],
+    "href": "/ai",
+    "thumbs": [
+      {
+        "motion": "ai-chat"
+      },
+      {
+        "motion": "ai-call"
+      }
+    ]
+  },
+  {
+    "title": "Email and SMS marketing",
+    "line": "Campaigns, and automated welcome, birthday and win-back messages, designed to match your site. Automated messages on Scale.",
+    "tags": [
+      "Campaigns",
+      "Welcome messages",
+      "Birthday messages",
+      "Win-back messages"
+    ],
+    "href": "/services/email-sms",
+    "thumbs": [
+      {
+        "motion": "email-inbox"
+      },
+      {
+        "motion": "sms-thread"
+      }
+    ]
+  },
+  {
+    "title": "Branding and ad creative",
+    "line": "Logos and full brand kits, copywriting, and static and video ads made in software from your own photos and products.",
+    "tags": [
+      "Logo",
+      "Brand Starter",
+      "Full Brand Kit",
+      "Copywriting",
+      "Ad creatives",
+      "Ad videos"
+    ],
+    "href": "/services/creative",
+    "thumbs": [
+      {
+        "motion": "brand-mark"
+      },
+      {
+        "motion": "brand-kit"
+      }
+    ]
+  },
+  {
+    "title": "Hosting and care",
+    "line": "Everything that keeps your site online, fast and safe after launch, on one monthly plan. For sites built in our own code.",
+    "tags": [
+      "Hosting",
+      "Uptime monitoring",
+      "Security updates",
+      "Tested backups",
+      "Monthly changes"
+    ],
+    "href": "/services/hosting-care",
+    "thumbs": [
+      {
+        "motion": "host-checks"
+      },
+      {
+        "motion": "host-uptime"
+      }
+    ]
+  }
+]

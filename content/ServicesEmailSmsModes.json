@@ -1,0 +1,41 @@
+[
+  {
+    "id": "monthly",
+    "label": "Monthly",
+    "suffix": "/month",
+    "initial": "growth",
+    "tiers": [
+      {
+        "id": "growth",
+        "name": "Growth",
+        "price": 450,
+        "meta": "We grow it",
+        "highlights": [
+          "Everything in Local",
+          "SEO, GEO and AEO maintenance and optimisation",
+          "4 blog posts a month"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months"
+      },
+      {
+        "id": "scale",
+        "name": "Scale",
+        "price": 950,
+        "meta": "We run your marketing",
+        "highlights": [
+          "Everything in Growth",
+          "Automated welcome, birthday, win-back and after-visit emails and texts",
+          "8 blog posts a month"
+        ],
+        "rowLabel": "Minimum term",
+        "rowValue": "3 months"
+      }
+    ],
+    "addOn": {
+      "name": "Email & SMS Marketing",
+      "title": "What’s included where?",
+      "text": "Email campaigns from £450 a month on Growth. Texts and automated messages on Scale, £950 a month, with 2,000 texts included."
+    }
+  }
+]
