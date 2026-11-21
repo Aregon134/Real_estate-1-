@@ -16,11 +16,6 @@ export function Footer() {
               </p>
               <FounderChip people={dataPeople} />
             </div>
-            <div>
-              <h2 className="text-[1.5rem] font-semibold leading-[1.1] tracking-[-0.05em] lg:text-[2.375rem]">
-                Newsletter
-              </h2>
-            </div>
           </div>
           <div className="mt-10 grid grid-cols-[3fr_2fr] gap-x-1 lg:mt-20 lg:grid-cols-4">
             <div className="col-span-2">
@@ -59,7 +54,7 @@ export function Footer() {
                 </a>
               </div>
               <p className="mt-4 text-[0.75rem] font-medium leading-[1.3] tracking-[-0.04em] text-ink-0/60 lg:text-[0.875rem]">
-                {"Open "}Monday{" to "}Friday{", "}9am{" to "}5.30pm
+                Himachal Pradesh, India · Asia/Kolkata
               </p>
             </div>
             <nav aria-label="Footer" className="mt-[35px] lg:mt-0">
