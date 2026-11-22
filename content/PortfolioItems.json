@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "rahul-fitness",
+    "title": "Rahul Fitness",
+    "kind": "client",
+    "sector": "Fitness coaching & nutrition",
+    "summary": "A coaching website that helps visitors choose between a training membership, one-to-one coaching and a diet plan.",
+    "href": "/portfolio/rahul-fitness/",
+    "siteUrl": "https://aregon134.github.io/Rahul_fitness/",
+    "cover": "/images/work/rahul-fitness/homepage.webp"
+  }
+]

@@ -1,3 +1,6 @@
+import { ProjectCard } from "@/components/ProjectCard";
+import projects from "@/content/PortfolioItems.json";
+
 export function HomeWork() {
   return (
     <section
@@ -19,6 +22,13 @@ export function HomeWork() {
           View all projects ↗
         </a>
       </div>
+      <ul className="mt-8 grid gap-4 md:grid-cols-2">
+        {projects.map((project) => (
+          <li key={project.id}>
+            <ProjectCard project={project} />
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useState } from "react";
+import { ProjectCard } from "./ProjectCard";
 import * as RollingLabelModule from "./RollingLabel";
 const controlClass =
   "h-12 rounded-[14px] bg-ink-1000 text-[1rem] font-medium tracking-[-0.04em] text-ink-0 outline-none transition-shadow duration-200 focus-visible:shadow-[0_0_0_2px_#0a0a0a]";
@@ -75,7 +76,7 @@ export const ProjectBrowser = function ({ items }) {
         >
           {matches.map((project) => (
             <li key={project.id}>
-              <a href={project.href}>{project.title}</a>
+              <ProjectCard project={project} />
             </li>
           ))}
         </ol>
