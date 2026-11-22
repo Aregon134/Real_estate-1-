@@ -22,13 +22,19 @@ export default function Page() {
           <p>{project.summary}</p>
         </header>
         <figure className={styles.cover}>
-          <img
-            src={project.cover}
-            alt="Rahul Fitness homepage with a training portrait and the X Frame Method headline"
-            width="1440"
-            height="900"
-            fetchPriority="high"
-          />
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcSet="/images/work/rahul-fitness/mobile-home.webp"
+            />
+            <img
+              src={project.cover}
+              alt="Rahul Fitness homepage with a training portrait and the X Frame Method headline"
+              width="1440"
+              height="900"
+              fetchPriority="high"
+            />
+          </picture>
         </figure>
         <section className={styles.chapter}>
           <h2>Introduction</h2>

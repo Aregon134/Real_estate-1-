@@ -35,7 +35,7 @@ export function HomeWork() {
               for our co-founder Ayush Kumar.
             </p>
           </div>
-          <ol className="mt-[30px] grid gap-1 md:grid-cols-2 lg:mt-[90px]">
+          <ol className="mt-[30px] grid gap-x-2 gap-y-6 md:grid-cols-2 lg:mt-[90px]">
             {projects.map((project) => (
               <li key={project.id}>
                 <ProjectCard project={project} />

@@ -111,7 +111,7 @@ dialog.reel-dialog::backdrop {
 }
 .founder-card {
   display: grid;
-  grid-template-columns: clamp(82px, 31%, 125px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 43%) minmax(0, 1fr);
   width: 100%;
   color: #131313;
   text-align: left;
@@ -126,24 +126,22 @@ dialog.reel-dialog::backdrop {
   display: grid;
   padding: 6px;
 }
-.founder-monogram {
-  display: grid;
-  place-content: center;
-  padding-bottom: 14px;
-  background: linear-gradient(145deg, #383838, #111 70%);
+.founder-portrait {
+  position: absolute;
+  inset: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  object-fit: cover;
   border-radius: 12px;
-  color: #fff;
-  font-size: clamp(2.2rem, 4vw, 3.5rem);
-  font-weight: 600;
-  letter-spacing: -0.085em;
-  line-height: 1;
 }
 .founder-controls {
   position: absolute;
   bottom: 7px;
-  inset-inline: 0;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
-  justify-content: center;
+  background: #121212ad;
+  border-radius: 20px;
 }
 .founder-controls button {
   display: grid;
@@ -201,7 +199,8 @@ dialog.reel-dialog::backdrop {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: clamp(8px, 1vw, 16px);
+  white-space: nowrap;
   min-height: 44px;
   margin-top: 12px;
   padding-inline: 16px;
@@ -213,4 +212,20 @@ dialog.reel-dialog::backdrop {
 }
 .founder-book:hover {
   background: #343434;
+}
+
+@media (max-width: 1023px) {
+  html {
+    scrollbar-gutter: auto;
+  }
+}
+@media (max-width: 1023px), (max-height: 560px) {
+  .zg-guide-trigger {
+    position: static;
+    align-self: center;
+    margin: 12px auto max(16px, env(safe-area-inset-bottom));
+  }
+  .zg-guide {
+    bottom: 16px;
+  }
 }

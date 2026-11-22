@@ -5,10 +5,10 @@ import { SmokeCanvas } from "@/components/SmokeCanvas";
 import styles from "./HomeHero.module.css";
 
 const services = [
-  ["Web design", "/services/web-design"],
+  ["Web design and development", "/services/web-design"],
   ["Shopify & e-commerce", "/services/shopify"],
-  ["SEO & GEO", "/services/seo"],
-  ["AI automation", "/ai"],
+  ["SEO and GEO", "/services/seo"],
+  ["AI and workflow automation", "/ai"],
 ];
 
 export function HomeHero() {
@@ -43,18 +43,18 @@ export function HomeHero() {
             </a>
           ))}
         </nav>
-        <div className={styles.intro}>
-          <p>Websites, Shopify stores and workflows for businesses in India.</p>
-          <a href="#projects" className={styles.projects}>
-            See projects <span aria-hidden="true">↓</span>
-          </a>
-        </div>
         <div className={styles.card}>
           <FounderCard
             founders={team}
             bookingUrl={agency.bookingUrl}
             brand={agency.name}
           />
+        </div>
+        <div className={styles.intro}>
+          <p>Websites, Shopify stores and workflows for businesses in India.</p>
+          <a href="#projects" className={styles.projects}>
+            See projects <span aria-hidden="true">↓</span>
+          </a>
         </div>
       </div>
     </section>

@@ -23,13 +23,19 @@ export default function Page() {
           <p>{project.summary}</p>
         </header>
         <figure className={styles.cover}>
-          <img
-            src={project.cover}
-            alt="Ayush’s portfolio opens with a spotlight reel inside a video preview monitor."
-            width="1440"
-            height="900"
-            fetchPriority="high"
-          />
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcSet="/images/work/timeline-pro/mobile.webp"
+            />
+            <img
+              src={project.cover}
+              alt="Ayush’s portfolio opens with a spotlight reel inside a video preview monitor."
+              width="1440"
+              height="900"
+              fetchPriority="high"
+            />
+          </picture>
         </figure>
         <section className={styles.chapter}>
           <h2>The project</h2>

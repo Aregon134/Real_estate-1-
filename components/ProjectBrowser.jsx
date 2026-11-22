@@ -17,8 +17,8 @@ export const ProjectBrowser = function ({ items }) {
   );
   return (
     <>
-      <div className="mt-[30px] flex flex-col gap-1 lg:mt-[86px] lg:flex-row">
-        <label className="relative order-2 lg:order-1 lg:w-[270px]">
+      <div className="mt-6 grid grid-cols-[minmax(0,1fr)_minmax(116px,0.7fr)] gap-2 sm:max-w-[460px] lg:mt-10">
+        <label className="relative min-w-0">
           <span className="sr-only">{"Search projects"}</span>
           <svg
             viewBox="0 0 16 16"
@@ -40,7 +40,7 @@ export const ProjectBrowser = function ({ items }) {
             className={`${controlClass} w-full pl-10 pr-4 placeholder:text-ink-0/50`}
           />
         </label>
-        <label className="relative order-1 lg:order-2 lg:w-[150px]">
+        <label className="relative min-w-0">
           <span className="sr-only">{"Category"}</span>
           <select
             value={category}
@@ -72,7 +72,7 @@ export const ProjectBrowser = function ({ items }) {
       {matches.length ? (
         <ol
           id={`${gridId}-grid`}
-          className="mt-1 grid gap-1 md:grid-cols-2 lg:mt-10"
+          className="mt-5 grid gap-x-2 gap-y-6 md:grid-cols-2 lg:mt-8"
         >
           {matches.map((project) => (
             <li key={project.id}>
@@ -83,7 +83,7 @@ export const ProjectBrowser = function ({ items }) {
       ) : (
         <div
           id={`${gridId}-grid`}
-          className="mt-1 flex flex-col items-start gap-5 rounded-[18px] bg-ink-1000 p-6 lg:mt-10 lg:p-[30px]"
+          className="mt-5 flex flex-col items-start gap-5 rounded-[18px] bg-ink-1000 p-6 lg:mt-10 lg:p-[30px]"
         >
           <p className="text-[1.125rem] font-medium tracking-[-0.04em]">
             {items.length

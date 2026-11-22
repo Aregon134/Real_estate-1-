@@ -5,13 +5,13 @@ export function PortfolioProjectsTitle() {
     <>
       <section
         aria-labelledby="projects-title"
-        className="bg-ink-950 px-gutter pb-[50px] pt-[140px] text-ink-0 lg:pb-[190px] lg:pt-[318px]"
+        className="bg-ink-950 px-gutter pb-[50px] pt-[clamp(6.4rem,12vw,12rem)] text-ink-0 lg:pb-28"
       >
         <div className="grid lg:grid-cols-4 lg:gap-x-1">
           <h1
             id="projects-title"
             data-reveal="mask"
-            className="text-[4rem] font-semibold leading-[0.96] tracking-[-0.06em] lg:col-span-2 lg:text-[clamp(6rem,10.3vw,9.25rem)]"
+            className="text-[clamp(3.4rem,12vw,6rem)] font-semibold leading-[0.96] tracking-[-0.06em] lg:col-span-2 lg:text-[clamp(6rem,10.3vw,9.25rem)]"
           >
             Projects.
           </h1>

@@ -46,14 +46,19 @@ export function FounderCard({ founders, bookingUrl, brand }) {
   const { active, choose, hold } = useFounderTurn(founders.length);
   const person = founders[active];
   return (
-    <div className="founder-card" {...hold}>
+    <div
+      className="founder-card"
+      role="group"
+      aria-label={`${brand} co-founders`}
+      {...hold}
+    >
       <div className="founder-tile">
-        <div className="founder-monogram" aria-hidden="true">
-          {person.name
-            .split(" ")
-            .map((part) => part[0])
-            .join("")}
-        </div>
+        <img
+          className="founder-portrait"
+          src={person.photo}
+          alt=""
+          style={{ objectPosition: person.focus }}
+        />
         <div
           className="founder-controls"
           role="group"
@@ -80,10 +85,8 @@ export function FounderCard({ founders, bookingUrl, brand }) {
               aria-hidden={active !== index}
               className={`founder-slide ${index === active ? "is-on" : ""}`}
             >
-              <p>{founder.title}</p>
-              <small>
-                {founder.role} at {brand}
-              </small>
+              <p>{founder.role}</p>
+              <small>{founder.title}</small>
               <strong>{founder.name}</strong>
             </div>
           ))}

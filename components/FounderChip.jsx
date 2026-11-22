@@ -9,11 +9,12 @@ export const FounderChip = function ({ people }) {
   return (
     <div className="mt-7 flex items-center gap-3.5 lg:mt-[41px]" {...hold}>
       <Image
-        src="/icon.svg"
+        src={people[active].photo}
+        style={{ objectPosition: people[active].focus }}
         alt=""
         width={42}
         height={42}
-        className="size-[42px] shrink-0 rounded-full"
+        className="size-[42px] shrink-0 rounded-full object-cover"
       />
       <div className="grid">
         {people.map((e, r) => (

@@ -2,16 +2,22 @@
   {
     "name": "Kushagra Bhartia",
     "role": "Co-founder",
-    "title": "E-commerce & design"
+    "title": "E-commerce & design",
+    "photo": "/images/founders/kushagra.jpg",
+    "focus": "52% 45%"
   },
   {
     "name": "Ayush Kumar",
     "role": "Co-founder",
-    "title": "Developer & designer"
+    "title": "Developer & designer",
+    "photo": "/images/founders/ayush.jpg",
+    "focus": "50% 38%"
   },
   {
     "name": "Shresth Maheshwari",
     "role": "Co-founder",
-    "title": "Developer & designer"
+    "title": "Developer & designer",
+    "photo": "/images/founders/shresth.jpg",
+    "focus": "50% 44%"
   }
 ]
