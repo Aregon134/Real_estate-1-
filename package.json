@@ -16,7 +16,8 @@
     "@tailwindcss/postcss": "^4.3.5",
     "postcss": "^8.5.33",
     "prettier": "3.9.5",
-    "tailwindcss": "^4.3.5"
+    "tailwindcss": "^4.3.5",
+    "wrangler": "^4.166.0"
   },
   "engines": {
     "node": ">=22"

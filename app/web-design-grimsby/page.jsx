@@ -8,11 +8,9 @@ import dataAgency from "@/content/Agency.json";
 import dataNavigation from "@/content/Navigation.json";
 import dataTeam from "@/content/Team.json";
 
-export const metadata = {
-  title: "Web Design in Grimsby & Cleethorpes | Ziggloom",
-  description:
-    "Web design in Grimsby, Cleethorpes and North East Lincolnshire: custom websites from a founder-led agency based in Grimsby, at fixed prices from £500.",
-};
+// export const metadata = {
+//   title: "Web Design in Grimsby & Cleethorpes | Ziggloom"
+// };
 export default function Page() {
   return (
     <>
