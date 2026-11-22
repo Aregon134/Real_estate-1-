@@ -74,7 +74,7 @@ export function ServicesShopifyPricing() {
                       Kushagra Bhartia
                     </p>
                     <p className="text-[0.75rem] font-medium tracking-[-0.04em] text-ink-1000/60 lg:text-[0.875rem]">
-                      {"Designer & developer"}
+                      {"Co-founder · E-commerce & design"}
                     </p>
                   </div>
                 </div>

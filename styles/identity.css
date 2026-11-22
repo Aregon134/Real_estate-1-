@@ -111,45 +111,104 @@ dialog.reel-dialog::backdrop {
 }
 .founder-card {
   display: grid;
-  gap: 12px;
+  grid-template-columns: clamp(82px, 31%, 125px) minmax(0, 1fr);
   width: 100%;
-  padding: clamp(12px, 1.25vw, 20px);
-  background: #fafafa;
-  color: #171717;
+  color: #131313;
+  text-align: left;
+}
+.founder-tile,
+.founder-details {
+  background: #fff;
   border-radius: 16px;
 }
-.founder-identity {
+.founder-tile {
+  position: relative;
+  display: grid;
+  padding: 6px;
+}
+.founder-monogram {
+  display: grid;
+  place-content: center;
+  padding-bottom: 14px;
+  background: linear-gradient(145deg, #383838, #111 70%);
+  border-radius: 12px;
+  color: #fff;
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 600;
+  letter-spacing: -0.085em;
+  line-height: 1;
+}
+.founder-controls {
+  position: absolute;
+  bottom: 7px;
+  inset-inline: 0;
   display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 0;
+  justify-content: center;
 }
-.founder-identity img {
-  width: 44px;
-  height: 44px;
-  flex: none;
-  border-radius: 10px;
+.founder-controls button {
+  display: grid;
+  width: 24px;
+  height: 28px;
+  place-items: center;
+  cursor: pointer;
 }
-.founder-identity p {
-  font-size: 0.8rem;
-  color: #555;
+.founder-controls button:focus-visible {
+  outline: 2px solid white;
 }
+.founder-controls span,
+.founder-book span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+}
+.founder-controls button[aria-pressed="false"] span {
+  background: #888;
+}
+.founder-details {
+  display: grid;
+  align-content: center;
+  justify-items: start;
+  padding: clamp(12px, 1.55vw, 24px);
+}
+.founder-identity {
+  display: grid;
+}
+.founder-identity > div {
+  grid-area: 1 / 1;
+}
+.founder-identity p,
+.founder-identity small,
 .founder-identity strong {
   display: block;
-  font-size: clamp(1.05rem, 1.45vw, 1.4rem);
-  line-height: 1.2;
-  overflow-wrap: anywhere;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1.13;
+}
+.founder-identity p {
+  font-size: 0.875rem;
+}
+.founder-identity small {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: #616161;
+}
+.founder-identity strong {
+  margin-top: 6px;
+  font-size: clamp(1.12rem, 1.6vw, 1.375rem);
 }
 .founder-book {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
-  min-height: 50px;
-  padding: 0 20px;
-  border-radius: 999px;
+  gap: 20px;
+  min-height: 44px;
+  margin-top: 12px;
+  padding-inline: 16px;
   background: #151515;
   color: white;
+  border-radius: 999px;
+  font-size: 0.94rem;
   font-weight: 650;
 }
 .founder-book:hover {

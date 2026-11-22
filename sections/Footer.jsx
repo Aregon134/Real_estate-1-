@@ -1,7 +1,7 @@
 import agency from "@/content/Agency.json";
 import { FounderChip } from "@/components/FounderChip";
 import Image from "next/image";
-import dataPeople from "@/content/People.json";
+import founders from "@/content/Team.json";
 export function Footer() {
   return (
     <>
@@ -14,7 +14,7 @@ export function Footer() {
                 hours back,{" "}
                 <span className="text-ink-0">we build it ourselves.</span>
               </p>
-              <FounderChip people={dataPeople} />
+              <FounderChip people={founders} />
             </div>
           </div>
           <div className="mt-10 grid grid-cols-[3fr_2fr] gap-x-1 lg:mt-20 lg:grid-cols-4">

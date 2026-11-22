@@ -7,6 +7,23 @@
     "summary": "A coaching website that helps visitors choose between a training membership, one-to-one coaching and a diet plan.",
     "href": "/portfolio/rahul-fitness/",
     "siteUrl": "https://aregon134.github.io/Rahul_fitness/",
-    "cover": "/images/work/rahul-fitness/homepage.webp"
+    "cover": "/images/work/rahul-fitness/homepage.webp",
+    "year": 2026,
+    "artwork": "/images/work/rahul-fitness/training-cover.webp",
+    "logo": "/images/work/rahul-fitness/wordmark.png"
+  },
+  {
+    "id": "ayush-edit-portfolio",
+    "title": "Ayush’s Edit Portfolio",
+    "kind": "own",
+    "sector": "Video editing & motion design",
+    "summary": "Ayush’s video-editing portfolio pairs a reel library for clients with an interactive timeline for exploring his edits.",
+    "href": "/portfolio/ayush-edit-portfolio/",
+    "siteUrl": "https://edit-portfolio-omega.vercel.app/",
+    "sourceUrl": "https://github.com/httpsAKayush/Edit_portfolio",
+    "cover": "/images/work/timeline-pro/editor.webp",
+    "year": 2026,
+    "artwork": "/images/work/timeline-pro/spotlight.webp",
+    "logo": "/images/work/timeline-pro/wordmark.png"
   }
 ]

@@ -31,8 +31,8 @@ export default function Page() {
       <main id="main" className="v3 flex-1">
         <HomeHero />
         <HeaderSurfaceSentinel />
-        <HomeServices />
         <HomeWork />
+        <HomeServices />
         <AboutProcess />
         <HomeHiddenCost />
         <HomeWhy />

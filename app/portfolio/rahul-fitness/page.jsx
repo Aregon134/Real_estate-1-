@@ -3,7 +3,7 @@ import { Footer } from "@/sections/Footer";
 import agency from "@/content/Agency.json";
 import nav from "@/content/Navigation.json";
 import projects from "@/content/PortfolioItems.json";
-import styles from "./case.module.css";
+import styles from "../case.module.css";
 
 const project = projects.find((item) => item.id === "rahul-fitness");
 export const metadata = {

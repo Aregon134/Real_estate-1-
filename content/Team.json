@@ -1,8 +1,17 @@
 [
   {
     "name": "Kushagra Bhartia",
-    "role": "Founder",
-    "title": "",
-    "photo": "/icon.svg"
+    "role": "Co-founder",
+    "title": "E-commerce & design"
+  },
+  {
+    "name": "Ayush Kumar",
+    "role": "Co-founder",
+    "title": "Developer & designer"
+  },
+  {
+    "name": "Shresth Maheshwari",
+    "role": "Co-founder",
+    "title": "Developer & designer"
   }
 ]

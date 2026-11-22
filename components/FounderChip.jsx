@@ -8,22 +8,13 @@ export const FounderChip = function ({ people }) {
   );
   return (
     <div className="mt-7 flex items-center gap-3.5 lg:mt-[41px]" {...hold}>
-      <div className="grid size-[42px] shrink-0">
-        {people.map((e, o) =>
-          e.avatar ? (
-            <Image
-              src={e.avatar}
-              alt=""
-              width={42}
-              height={42}
-              sizes="42px"
-              quality={90}
-              className={`founder-slide size-[42px] rounded-full object-cover [grid-area:1/1] ${o === active ? "is-on" : ""}`}
-              key={e.name}
-            />
-          ) : null,
-        )}
-      </div>
+      <Image
+        src="/icon.svg"
+        alt=""
+        width={42}
+        height={42}
+        className="size-[42px] shrink-0 rounded-full"
+      />
       <div className="grid">
         {people.map((e, r) => (
           <div
